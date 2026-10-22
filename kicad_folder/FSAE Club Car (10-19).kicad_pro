@@ -286,8 +286,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -425,18 +425,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "FSAE Club Car (1).kicad_sch",
-        "name": "FSAE Club Car (1)",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "FSAE Club Car (10-19).kicad_sch",
+        "name": "FSAE Club Car (10-19)",
+        "uuid": "f4a3be7d-51ca-4426-b777-6c682d495711"
       }
     ],
-    "used_designators": "#PWR16-17,F6,K6-7",
+    "used_designators": "#PWR16-35,F6-12,K6-12,SW6-13,PMS1,J2-3",
     "variants": []
   },
   "sheets": [
     [
       "f4a3be7d-51ca-4426-b777-6c682d495711",
-      "FSAE Club Car (1)"
+      "FSAE Club Car (10-19)"
     ]
   ],
   "text_variables": {},
