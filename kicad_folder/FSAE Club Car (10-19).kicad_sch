@@ -4508,16 +4508,16 @@
 		(uuid "1a6b7e76-182c-437d-a776-a6810967efd6")
 	)
 	(junction
-		(at 745.49 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dfbd16f-9357-409c-969e-858f7421e456")
-	)
-	(junction
 		(at 707.39 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a316028-ddc9-4e5b-873f-e46fa7c53de9")
+	)
+	(junction
+		(at 764.54 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab0d4f1-06b6-4f89-ba93-24627c0114d2")
 	)
 	(junction
 		(at 457.2 78.74)
@@ -4719,16 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 745.49 83.82) (xy 745.49 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0119fe8c-adf0-4074-9719-f9052649858d")
-	)
-	(wire
-		(pts
 			(xy 257.81 40.64) (xy 257.81 43.18)
 		)
 		(stroke
@@ -4906,6 +4896,16 @@
 			(type default)
 		)
 		(uuid "13d14039-8841-407a-ba1c-9491a354335f")
+	)
+	(wire
+		(pts
+			(xy 760.73 74.93) (xy 764.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154394bc-9948-4661-980d-3a9e537c3b36")
 	)
 	(wire
 		(pts
@@ -5459,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 764.54 74.93) (xy 778.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454c37d8-2a95-48e4-b767-6faec8b9436d")
+	)
+	(wire
+		(pts
 			(xy 864.87 77.47) (xy 836.93 77.47)
 		)
 		(stroke
@@ -5746,16 +5756,6 @@
 			(type default)
 		)
 		(uuid "59d64f05-dff3-4d79-8844-329a6f43fb0b")
-	)
-	(wire
-		(pts
-			(xy 778.51 74.93) (xy 760.73 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b00e839-22ab-4226-9a3d-3e321ab74172")
 	)
 	(wire
 		(pts
@@ -6409,7 +6409,7 @@
 	)
 	(wire
 		(pts
-			(xy 745.49 82.55) (xy 745.49 74.93)
+			(xy 745.49 74.93) (xy 745.49 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7519,7 +7519,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "16V Zener"
 			(at 674.37 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8087,7 +8087,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 749.3 82.55 0)
+		(at 764.54 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8098,27 +8098,29 @@
 		(fields_autoplaced yes)
 		(uuid "134e2558-786c-413b-9395-08cc26be066d")
 		(property "Reference" "D2"
-			(at 749.3 76.2 0)
+			(at 767.08 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 749.3 78.74 0)
+		(property "Value" "16V Zener"
+			(at 767.08 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
-			(at 749.3 82.55 0)
+			(at 764.54 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8129,7 +8131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 749.3 82.55 0)
+			(at 764.54 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +8142,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 749.3 82.55 0)
+			(at 764.54 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +10808,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "16V Zener"
 			(at 681.99 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11624,7 +11626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "16V Zener"
 			(at 713.74 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12911,7 +12913,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 753.11 82.55 90)
+		(at 764.54 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12919,10 +12921,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c152328c-3dab-40d8-83d0-e2ecf1abae98")
 		(property "Reference" "#PWR036"
-			(at 758.19 82.55 0)
+			(at 764.54 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12933,18 +12934,17 @@
 			)
 		)
 		(property "Value" "Chassis GND"
-			(at 756.92 82.6769 90)
+			(at 758.444 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 754.38 82.55 0)
+			(at 764.54 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12955,7 +12955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 754.38 82.55 0)
+			(at 764.54 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12966,7 +12966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 753.11 82.55 0)
+			(at 764.54 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
