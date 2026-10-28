@@ -4257,6 +4257,16 @@
 		)
 		(uuid "e9b1ffd1-1080-4aef-aaec-3bde9fe5b49a")
 	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 204.216 347.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04add63f-d783-4e05-9c8a-1436fdc7e75a")
+	)
 	(text "Ignition_coil+"
 		(exclude_from_sim no)
 		(at 201.422 321.564 0)
@@ -4347,7 +4357,7 @@
 		)
 		(uuid "3ef28100-ea96-49ff-988b-f706ea8ef106")
 	)
-	(text "Rad_Fan"
+	(text "RAD_FAN"
 		(exclude_from_sim no)
 		(at 204.216 344.424 0)
 		(effects
@@ -4417,6 +4427,26 @@
 		)
 		(uuid "4ef54152-b7b8-406b-a45e-d6cc91215776")
 	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 204.216 354.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51ca495d-b4bc-4275-8ccb-d9c98fa7155f")
+	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 204.0103 350.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52c94a19-9992-4365-844a-4df73427ae86")
+	)
 	(text "MAP_B"
 		(exclude_from_sim no)
 		(at 204.216 334.518 0)
@@ -4466,6 +4496,16 @@
 			)
 		)
 		(uuid "6837663a-fabd-4917-b1b3-ff8f9a2ee785")
+	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 203.962 352.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69119abf-289f-4052-b27b-917cee468566")
 	)
 	(text "Coolant_Temp"
 		(exclude_from_sim no)
