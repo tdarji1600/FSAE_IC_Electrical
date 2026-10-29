@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PRY4-12V-900-1C-EF
+#/21823525/2206936/2.50/5/2/Relay or Contactor
+DEF PRY4-12V-900-1C-EF K 0 30 Y Y 1 F N
+F0 "K" 1150 300 50 H V L CNN
+F1 "PRY4-12V-900-1C-EF" 1150 200 50 H V L CNN
+F2 "PRY412V9001CEF" 1150 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/pry4.pdf" 1150 0 50 H I L CNN
+F4 "31.5 x 27.4 x 19.5 mm, 12 V, 30 A, SPDT (1 Form C), Class F, Epoxy Sealed, Power Relay" 1150 -100 50 H I L CNN "Description"
+F5 "20.2" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PRY4-12V-900-1C-EF" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COIL_1 1 0 0 200 R 50 50 0 0 P
+X N.O. 2 0 -100 200 R 50 50 0 0 P
+X N.C. 3 0 -200 200 R 50 50 0 0 N
+X COM 4 1300 0 200 L 50 50 0 0 P
+X COIL_2 5 1300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
