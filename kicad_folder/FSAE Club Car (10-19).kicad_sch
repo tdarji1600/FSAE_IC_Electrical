@@ -6950,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 577.85) (xy 162.56 568.96)
+			(xy 170.18 577.85) (xy 170.18 568.96)
 		)
 		(stroke
 			(width 0)
@@ -6990,7 +6990,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 566.42) (xy 163.83 580.39)
+			(xy 167.64 566.42) (xy 167.64 580.39)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7380,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 566.42) (xy 199.39 566.42)
+			(xy 167.64 566.42) (xy 199.39 566.42)
 		)
 		(stroke
 			(width 0)
@@ -11230,7 +11230,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 577.85) (xy 153.035 577.85)
+			(xy 149.86 577.85) (xy 170.18 577.85)
 		)
 		(stroke
 			(width 0)
@@ -11540,7 +11540,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 580.39) (xy 149.86 580.39)
+			(xy 167.64 580.39) (xy 149.86 580.39)
 		)
 		(stroke
 			(width 0)
@@ -11880,7 +11880,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 568.96) (xy 199.39 568.96)
+			(xy 170.18 568.96) (xy 199.39 568.96)
 		)
 		(stroke
 			(width 0)
@@ -12027,16 +12027,6 @@
 			(type default)
 		)
 		(uuid "c62d1253-2432-443f-ae6e-3e258276a531")
-	)
-	(wire
-		(pts
-			(xy 153.67 577.85) (xy 162.56 577.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68b70f3-7770-4c80-b166-d40c19df2795")
 	)
 	(wire
 		(pts
@@ -21539,85 +21529,6 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.035 577.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c3d151d-cff2-48d5-bd8d-b3e283194398")
-		(property "Reference" "#PWR070"
-			(at 159.385 577.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.845 577.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.035 577.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.035 577.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.035 577.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3bba9b30-640f-4724-b3e4-6580dc50e8a6")
-		)
-		(instances
-			(project "FSAE Club Car (10-19)"
-				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
