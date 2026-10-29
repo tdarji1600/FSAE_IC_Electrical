@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PRY4-12V-900-1C-EF
+D 31.5 x 27.4 x 19.5 mm, 12 V, 30 A, SPDT (1 Form C), Class F, Epoxy Sealed, Power Relay
+K
+F https://www.sameskydevices.com/product/resource/pry4.pdf
+$ENDCMP
+#
+#End Doc Library
