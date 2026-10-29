@@ -5,6 +5,351 @@
 	(uuid "f4a3be7d-51ca-4426-b777-6c682d495711")
 	(paper "User" 3048 3048)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x18_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -4014,6 +4359,18 @@
 		(uuid "3e491bb4-ccdc-4a22-b680-b3daef1a8e2d")
 	)
 	(rectangle
+		(start 130.937 629.539)
+		(end 153.67 638.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "40dbff9c-8b79-4e66-96f4-4e156adf5a9c")
+	)
+	(rectangle
 		(start 280.67 78.74)
 		(end 317.5 88.9)
 		(stroke
@@ -4025,6 +4382,19 @@
 			(color 255 247 130 1)
 		)
 		(uuid "43216b19-09f7-426f-84ad-67d6c7075443")
+	)
+	(rectangle
+		(start 140.97 548.259)
+		(end 147.32 559.054)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 251 151 1)
+		)
+		(uuid "46a641cd-a8b7-44b6-bb53-e7c739f39ec1")
 	)
 	(rectangle
 		(start 251.46 171.45)
@@ -4061,6 +4431,18 @@
 			(type none)
 		)
 		(uuid "57586cda-9e06-4987-b6f7-417c8dd49b20")
+	)
+	(rectangle
+		(start 130.81 621.03)
+		(end 153.67 628.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5a80da53-994e-45f1-b884-3bbb9b8222a0")
 	)
 	(rectangle
 		(start 864.87 62.23)
@@ -4111,6 +4493,30 @@
 		(uuid "99d739ec-4bc1-453d-a601-ea0087a7b376")
 	)
 	(rectangle
+		(start 153.67 619.76)
+		(end 130.81 609.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9ccc2321-d639-41a2-bb24-eb8d0019ef5b")
+	)
+	(rectangle
+		(start 153.67 608.33)
+		(end 130.81 598.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a17f1972-02f2-42ad-afcc-f1b4b61c503f")
+	)
+	(rectangle
 		(start 251.46 128.27)
 		(end 292.1 138.43)
 		(stroke
@@ -4134,6 +4540,30 @@
 			(color 255 247 130 1)
 		)
 		(uuid "a687d2d2-2e7e-4faf-a9c8-c2834ed4085a")
+	)
+	(rectangle
+		(start 141.605 572.135)
+		(end 149.86 582.295)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ad2d28b5-35b8-463e-a259-845385df882c")
+	)
+	(rectangle
+		(start 140.97 533.4)
+		(end 152.4 546.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "af2233db-c748-4eec-b263-f559df9c40e6")
 	)
 	(rectangle
 		(start 220.98 214.63)
@@ -4183,6 +4613,19 @@
 			(color 255 251 151 1)
 		)
 		(uuid "c98a4ee0-ae40-49c8-a1e2-22cd03138233")
+	)
+	(rectangle
+		(start 140.335 521.97)
+		(end 148.59 532.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 247 130 1)
+		)
+		(uuid "d2358a33-d7db-4172-bf21-e21e1f6b2fb1")
 	)
 	(rectangle
 		(start 251.46 142.24)
@@ -4257,6 +4700,18 @@
 		)
 		(uuid "e9b1ffd1-1080-4aef-aaec-3bde9fe5b49a")
 	)
+	(rectangle
+		(start 99.06 571.5)
+		(end 88.9 594.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fb0d7d3e-2354-43a3-b046-8037647c257a")
+	)
 	(text "Sens_GND"
 		(exclude_from_sim no)
 		(at 204.216 347.472 0)
@@ -4267,6 +4722,46 @@
 		)
 		(uuid "04add63f-d783-4e05-9c8a-1436fdc7e75a")
 	)
+	(text "MAP_A"
+		(exclude_from_sim no)
+		(at 195.58 540.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06ae2508-9114-4326-97de-a5d62392a8f4")
+	)
+	(text "V_in"
+		(exclude_from_sim no)
+		(at 198.12 504.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09707a92-03a3-4856-9c64-de3033591a52")
+	)
+	(text "Coolant_Temp"
+		(exclude_from_sim no)
+		(at 192.278 544.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0bf80efd-98d3-46e4-aedc-8ae3663f108a")
+	)
+	(text "RAD_FAN"
+		(exclude_from_sim no)
+		(at 195.326 550.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d2c453c-73cc-40a0-b0e5-ba91b44dff63")
+	)
 	(text "Ignition_coil+"
 		(exclude_from_sim no)
 		(at 201.422 321.564 0)
@@ -4276,6 +4771,26 @@
 			)
 		)
 		(uuid "0e398a2a-1845-4f87-9c8f-13b7340ac109")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 148.082 578.231 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "115104c7-abf7-449d-9ade-0ef5abc96320")
+	)
+	(text "Injector-"
+		(exclude_from_sim no)
+		(at 194.31 527.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13b2a572-7624-4246-b862-f957479da300")
 	)
 	(text "INJECTOR"
 		(exclude_from_sim no)
@@ -4297,6 +4812,16 @@
 		)
 		(uuid "1924c28b-1fd9-4274-92c7-3b285cd37e96")
 	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 193.802 567.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "193c56d5-ee27-419b-897b-fff1e8a621ca")
+	)
 	(text "Fuel \nPump"
 		(exclude_from_sim no)
 		(at 155.321 354.711 90)
@@ -4307,6 +4832,16 @@
 		)
 		(uuid "1c874a5b-6567-4da6-8d29-f5ff01676a4e")
 	)
+	(text "Ignition_coil+"
+		(exclude_from_sim no)
+		(at 192.532 529.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f2c937b-3c33-4970-b5b8-31bb6745f198")
+	)
 	(text "COOLANT TEMP"
 		(exclude_from_sim no)
 		(at 876.3 67.818 0)
@@ -4316,6 +4851,16 @@
 			)
 		)
 		(uuid "1f2e0f73-6833-4e4b-b4d0-f3f99ef7d7e0")
+	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 195.326 542.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24699232-d5bd-445c-9789-06369bca3b31")
 	)
 	(text "Starter"
 		(exclude_from_sim no)
@@ -4337,6 +4882,16 @@
 		)
 		(uuid "265d2035-1943-40ff-996f-6c2789309a12")
 	)
+	(text "Kill_Switches"
+		(exclude_from_sim no)
+		(at 193.294 507.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2cb062e0-4d42-4155-b77a-e77f0fcdf7da")
+	)
 	(text "COOLANT TEMP"
 		(exclude_from_sim no)
 		(at 152.146 397.764 0)
@@ -4346,6 +4901,26 @@
 			)
 		)
 		(uuid "392bacc2-5314-48c8-98fe-a4d544e79e13")
+	)
+	(text "Starter"
+		(exclude_from_sim no)
+		(at 193.04 519.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b26fc6a-394c-4aa2-bed8-e0d66e0bf353")
+	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 193.548 535.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d21c7a6-d240-46b7-89ae-0ad3f752fb98")
 	)
 	(text "A\nB\nC"
 		(exclude_from_sim no)
@@ -4397,6 +4972,16 @@
 		)
 		(uuid "43f1d9f4-525d-43ee-b0c9-8efc9b46c6ca")
 	)
+	(text "INTAKE AIR TEMP"
+		(exclude_from_sim no)
+		(at 141.986 616.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45027b42-73cf-4374-b18f-8653247248f9")
+	)
 	(text "12v to 5v buck\n"
 		(exclude_from_sim no)
 		(at 249.428 56.388 0)
@@ -4416,6 +5001,26 @@
 			)
 		)
 		(uuid "4a5d2bde-9c18-41e9-9a1b-08f203eb3c47")
+	)
+	(text "A\nB\nC\nD"
+		(exclude_from_sim no)
+		(at 150.876 538.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b5731af-53a7-4fa3-8cb6-1bf11d94c2c7")
+	)
+	(text "O2 Vout\n/Nernst\n Voltage"
+		(exclude_from_sim no)
+		(at 154.178 570.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4df6bcb5-e062-4235-bfa4-2683357b4fce")
 	)
 	(text "O2 Vout\n/Nernst\n Voltage"
 		(exclude_from_sim no)
@@ -4477,6 +5082,16 @@
 		)
 		(uuid "632b7dac-9de5-4601-9513-5dd0fa03063e")
 	)
+	(text "A4"
+		(exclude_from_sim no)
+		(at 148.082 581.025 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63b0e6a1-7f9a-4987-a8ae-1e546b869c78")
+	)
 	(text "O2"
 		(exclude_from_sim no)
 		(at 738.886 175.895 0)
@@ -4487,6 +5102,26 @@
 		)
 		(uuid "63e33d22-63e4-4cbf-b363-d4ce59e3d704")
 	)
+	(text "IGNITION\n COIL"
+		(exclude_from_sim no)
+		(at 145.542 540.512 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6419134c-c424-4957-beb5-cdef84e19612")
+	)
+	(text "INJECTOR"
+		(exclude_from_sim no)
+		(at 143.51 553.974 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64d841bd-d9b7-4f67-a6b7-ba1be4dc0a13")
+	)
 	(text "A\nB\nC\nD"
 		(exclude_from_sim no)
 		(at 275.336 105.156 0)
@@ -4496,6 +5131,16 @@
 			)
 		)
 		(uuid "6837663a-fabd-4917-b1b3-ff8f9a2ee785")
+	)
+	(text "STARTER"
+		(exclude_from_sim no)
+		(at 93.726 576.326 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68930d07-fca2-424d-bd39-d9a193ed9e7b")
 	)
 	(text "Sens_GND"
 		(exclude_from_sim no)
@@ -4517,6 +5162,16 @@
 		)
 		(uuid "6b41eb1c-a188-4f5e-8399-0be1f51ac217")
 	)
+	(text "Ignition_coil-"
+		(exclude_from_sim no)
+		(at 193.04 532.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6bde0d34-44bd-4f06-8823-741ae47b86fe")
+	)
 	(text "Fuel_pump"
 		(exclude_from_sim no)
 		(at 203.708 319.024 0)
@@ -4537,6 +5192,16 @@
 		)
 		(uuid "705bb1c4-ee20-4d5e-8c03-79cd0ccb3596")
 	)
+	(text "COOLANT TEMP"
+		(exclude_from_sim no)
+		(at 143.256 603.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70f1f61f-811e-425e-abf6-771b3b2759fa")
+	)
 	(text "A1"
 		(exclude_from_sim no)
 		(at 158.242 332.613 0)
@@ -4556,6 +5221,16 @@
 			)
 		)
 		(uuid "7a37cdb6-c27d-455c-9bfc-b0d7e271d2bb")
+	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 194.056 547.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a90ee09-9305-439a-bf3c-a1b4784ef28f")
 	)
 	(text "Radiator Fans\n"
 		(exclude_from_sim no)
@@ -4597,6 +5272,16 @@
 		)
 		(uuid "7b442fe5-a24a-4634-8cf5-e8a42e0398d1")
 	)
+	(text "Sens_GND"
+		(exclude_from_sim no)
+		(at 195.072 556.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c2d85b9-a7b8-4964-b9fa-58aa61918cee")
+	)
 	(text "A\nB\nC\nD"
 		(exclude_from_sim no)
 		(at 158.496 368.046 0)
@@ -4626,6 +5311,16 @@
 			)
 		)
 		(uuid "7ff9515e-37e9-4ae2-ae32-441a6417aaa0")
+	)
+	(text "Intake_Air_Temp"
+		(exclude_from_sim no)
+		(at 193.294 553.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8016d739-3263-4d6f-a700-ad73225f4b7f")
 	)
 	(text "V_in"
 		(exclude_from_sim no)
@@ -4687,6 +5382,16 @@
 		)
 		(uuid "84a947a2-63a6-42d0-9ba4-407e338c7a06")
 	)
+	(text "Fuel_pump"
+		(exclude_from_sim no)
+		(at 194.818 522.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84be2311-deb2-44a7-934d-cfd86fe1c29a")
+	)
 	(text "INTAKE AIR TEMP"
 		(exclude_from_sim no)
 		(at 262.382 147.574 0)
@@ -4696,6 +5401,16 @@
 			)
 		)
 		(uuid "892b47ef-d308-4660-af2e-3c77d2ec7349")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 148.082 573.913 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d430fb2-8172-449b-a4f7-fdbd49d1a928")
 	)
 	(text "Intake_Air_Temp"
 		(exclude_from_sim no)
@@ -4716,6 +5431,16 @@
 			)
 		)
 		(uuid "8f0c6b3b-f8bb-4203-9918-50d81c29aa75")
+	)
+	(text "O2"
+		(exclude_from_sim no)
+		(at 144.145 577.596 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95dc8f47-ac1a-49c2-bd4b-5c573af6377a")
 	)
 	(text "A3"
 		(exclude_from_sim no)
@@ -4757,6 +5482,36 @@
 		)
 		(uuid "994c52d5-a245-4977-ad66-6e8419e75b05")
 	)
+	(text "A\nB\nC"
+		(exclude_from_sim no)
+		(at 152.146 625.094 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bbc6284-1c08-4a0b-9e55-d4a83fad4648")
+	)
+	(text "O2_out"
+		(exclude_from_sim no)
+		(at 194.056 563.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d7b646c-c20a-457b-8e47-cbcea01ef7c1")
+	)
+	(text "Ignition+"
+		(exclude_from_sim no)
+		(at 195.58 509.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2c86005-636a-44f0-928d-5804be22f71c")
+	)
 	(text "IGNTION COIL"
 		(exclude_from_sim no)
 		(at 253.746 106.172 0)
@@ -4787,6 +5542,16 @@
 		)
 		(uuid "a68e19ff-6e57-489f-9b24-a2d8977152c0")
 	)
+	(text "Radiator Fans\n"
+		(exclude_from_sim no)
+		(at 140.97 635 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a97271f9-971c-4f02-9b2b-825a661c2ce7")
+	)
 	(text "A3"
 		(exclude_from_sim no)
 		(at 158.242 336.931 0)
@@ -4806,6 +5571,16 @@
 			)
 		)
 		(uuid "ac9e3e25-769a-4e42-950c-f167c4f52b68")
+	)
+	(text "Starter_Switch-"
+		(exclude_from_sim no)
+		(at 192.786 517.398 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae3de86d-0eff-4c8e-9523-461b9ebd2d7f")
 	)
 	(text "STARTER"
 		(exclude_from_sim no)
@@ -4849,6 +5624,26 @@
 	)
 	(text "Ignition-"
 		(exclude_from_sim no)
+		(at 195.58 512.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c42fdc86-ac13-4d9b-afe7-c7a6c99f0377")
+	)
+	(text "O2_Heater"
+		(exclude_from_sim no)
+		(at 193.802 565.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c440a526-6445-494f-aaaf-ce4173db5499")
+	)
+	(text "Ignition-"
+		(exclude_from_sim no)
 		(at 204.47 306.324 0)
 		(effects
 			(font
@@ -4867,6 +5662,16 @@
 		)
 		(uuid "ca7690e7-d350-4432-adcb-0dc15544db22")
 	)
+	(text "MAP SENSOR"
+		(exclude_from_sim no)
+		(at 141.986 624.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb343414-7de1-44c5-b439-fc89f52a2d85")
+	)
 	(text "A4"
 		(exclude_from_sim no)
 		(at 742.315 171.958 90)
@@ -4876,6 +5681,26 @@
 			)
 		)
 		(uuid "d0114326-cf56-4f62-97c0-adbbbf3851d1")
+	)
+	(text "Fuel \nPump"
+		(exclude_from_sim no)
+		(at 143.891 527.431 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d08d0632-2ed7-4cd5-b83f-003619d3dfd3")
+	)
+	(text "Starter_Switch+"
+		(exclude_from_sim no)
+		(at 192.278 514.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3d7679f-a5a6-4a71-b6c3-fb05751c4d93")
 	)
 	(text "Kill_Switches"
 		(exclude_from_sim no)
@@ -4906,6 +5731,26 @@
 			)
 		)
 		(uuid "dacccae0-af45-4863-8279-152a8bdaf3e3")
+	)
+	(text "Injector+"
+		(exclude_from_sim no)
+		(at 195.072 524.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "decb96f7-fcf5-493d-8d1a-131acb9820a3")
+	)
+	(text "MAP_B"
+		(exclude_from_sim no)
+		(at 195.326 537.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e15e60c2-ba65-4d3e-a48e-e14691cd2410")
 	)
 	(text "STARTER"
 		(exclude_from_sim no)
@@ -5016,10 +5861,28 @@
 		(uuid "1a6b7e76-182c-437d-a776-a6810967efd6")
 	)
 	(junction
+		(at 339.09 549.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23610cff-20aa-4170-94b6-5418b7183f07")
+	)
+	(junction
 		(at 320.04 328.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27549437-21b0-4a0d-9a47-b11b8d260238")
+	)
+	(junction
+		(at 146.05 488.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2821c940-458a-43c6-ba5d-75a536880fa4")
+	)
+	(junction
+		(at 295.91 543.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2943451d-784e-41f3-81b6-7eaa46f83a21")
 	)
 	(junction
 		(at 707.39 43.18)
@@ -5034,6 +5897,24 @@
 		(uuid "2ab0d4f1-06b6-4f89-ba93-24627c0114d2")
 	)
 	(junction
+		(at 355.6 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d340ae8-362b-4e6b-b6de-77100b47eb14")
+	)
+	(junction
+		(at 359.41 478.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f17a9c4-60fa-44b6-943c-03705d50621b")
+	)
+	(junction
+		(at 295.91 562.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311fa753-3ead-4d0c-a176-1f8a37e1427d")
+	)
+	(junction
 		(at 457.2 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5044,6 +5925,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33fd9e91-edc2-44c0-b7b9-9edf26d408ab")
+	)
+	(junction
+		(at 408.94 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "357055ae-810b-4dd5-9765-c9b21aea9b4b")
+	)
+	(junction
+		(at 482.6 558.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3642789e-5f86-40f2-9b73-a8c1643428e1")
+	)
+	(junction
+		(at 295.91 557.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f7a7f5-f866-49e6-b4f1-9da753300e71")
 	)
 	(junction
 		(at 382.27 107.95)
@@ -5062,6 +5961,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3beb5067-271f-489e-b145-38c939d6a886")
+	)
+	(junction
+		(at 426.72 568.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e56d515-dda5-4316-ae83-d1d235909d2f")
+	)
+	(junction
+		(at 323.85 529.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f81e4f1-f88e-4c79-85a6-a1cd2a5801e5")
 	)
 	(junction
 		(at 321.31 229.87)
@@ -5092,6 +6003,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48737fd1-0ec3-4862-a4cd-c66dc277586b")
+	)
+	(junction
+		(at 351.79 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a20771b-10ec-40ee-af2a-1afabd5018c4")
+	)
+	(junction
+		(at 375.92 494.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "572e6b20-8853-460f-8b9f-6b80da731212")
 	)
 	(junction
 		(at 707.39 74.93)
@@ -5136,6 +6059,18 @@
 		(uuid "63350349-927e-433b-8834-9be674f35871")
 	)
 	(junction
+		(at 344.17 518.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ccb5f0-b18a-42bd-8f85-f5e8474b942a")
+	)
+	(junction
+		(at 327.66 518.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c347cd-828b-4343-ac82-aaf4c397a34c")
+	)
+	(junction
 		(at 365.76 288.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5148,6 +6083,12 @@
 		(uuid "6ad71cea-ec1f-4194-8654-0d897dc9fdd6")
 	)
 	(junction
+		(at 330.2 534.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e61a8c0-49a1-46a9-90c0-e3c35812719c")
+	)
+	(junction
 		(at 472.44 353.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5158,6 +6099,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "706f9d16-a2e6-4d1b-91d3-3997ff4109a3")
+	)
+	(junction
+		(at 373.38 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74e7f95a-bcaf-4e0b-b2cd-717439e8bb94")
+	)
+	(junction
+		(at 480.06 546.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "751eadc5-fd2c-42c1-940a-a8c989cf0f3c")
 	)
 	(junction
 		(at 450.85 88.9)
@@ -5178,6 +6131,12 @@
 		(uuid "788bde46-1100-432d-a0bd-6835159bdcb9")
 	)
 	(junction
+		(at 426.72 562.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a7c2559-6993-4206-b7a4-41e764fdf534")
+	)
+	(junction
 		(at 728.98 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5190,6 +6149,12 @@
 		(uuid "80c2fc6c-00fc-4731-9784-342c6fec38bc")
 	)
 	(junction
+		(at 143.51 488.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "825c87cd-acdf-4de5-b09c-33af55bd212b")
+	)
+	(junction
 		(at 636.27 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5200,6 +6165,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90626c1c-372f-4597-972b-229695e4b26e")
+	)
+	(junction
+		(at 426.72 556.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97a5e0d0-4945-40ff-9ef3-bb3fa933d670")
 	)
 	(junction
 		(at 689.61 43.18)
@@ -5218,6 +6189,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bae4ef8-c575-495a-b2f1-de5d7a0b900f")
+	)
+	(junction
+		(at 295.91 548.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e130366-465c-4b8c-a51c-e07a53523d5d")
 	)
 	(junction
 		(at 339.09 303.53)
@@ -5292,10 +6269,34 @@
 		(uuid "ce3a05e7-db1a-4344-9a61-5884cecc07ab")
 	)
 	(junction
+		(at 351.79 509.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d22cffcf-8972-45c1-82de-10a516f265a7")
+	)
+	(junction
+		(at 344.17 508)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2446f31-4e86-42ac-bcec-d463a9f0fff3")
+	)
+	(junction
 		(at 469.9 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c6def2-58d8-4789-b71d-e3dfb963ddb5")
+	)
+	(junction
+		(at 400.05 556.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7b38e06-47fc-48ab-9bb2-f340942f0559")
+	)
+	(junction
+		(at 358.14 509.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8c95010-fa67-4622-8595-48bea10c7ef2")
 	)
 	(junction
 		(at 349.25 273.05)
@@ -5308,6 +6309,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df95ebc4-2c31-43bc-97e9-886dfe5caec0")
+	)
+	(junction
+		(at 349.25 509.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e20575fb-063c-4647-b1e7-e9731fc7f0b2")
 	)
 	(junction
 		(at 341.63 335.28)
@@ -5344,6 +6351,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8e92e8c-b0b7-4afe-842e-24a965b54a88")
+	)
+	(junction
+		(at 256.54 513.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc714723-9f61-45d8-b904-857b938a4049")
 	)
 	(junction
 		(at 363.22 335.28)
@@ -5417,6 +6430,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 518.16) (xy 327.66 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0294c251-e21d-417e-a553-d372a92558f7")
+	)
+	(wire
+		(pts
 			(xy 426.72 378.46) (xy 426.72 365.76)
 		)
 		(stroke
@@ -5467,6 +6490,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 538.48) (xy 180.34 624.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048b8c4e-a65f-4d1e-ba82-d6a3d8907a72")
+	)
+	(wire
+		(pts
+			(xy 146.05 488.95) (xy 187.96 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051cace8-f0d4-45fe-86ff-9d2399f0bfb1")
+	)
+	(wire
+		(pts
 			(xy 361.95 33.02) (xy 361.95 38.1)
 		)
 		(stroke
@@ -5484,6 +6527,16 @@
 			(type default)
 		)
 		(uuid "06451fc0-307c-4d3a-84bb-a07c7695c167")
+	)
+	(wire
+		(pts
+			(xy 299.72 584.2) (xy 436.88 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b0bd85-249c-4d35-933f-4f340d49505b")
 	)
 	(wire
 		(pts
@@ -5517,6 +6570,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 551.18) (xy 176.53 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09221f3d-a9bf-432a-9c5f-708101473abd")
+	)
+	(wire
+		(pts
 			(xy 267.97 97.79) (xy 283.21 97.79)
 		)
 		(stroke
@@ -5524,6 +6587,16 @@
 			(type default)
 		)
 		(uuid "09902786-76d9-41fc-8706-c6f6b9331a52")
+	)
+	(wire
+		(pts
+			(xy 436.88 571.5) (xy 486.41 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a1a77f-00c7-41b1-85d2-1b4357d793bf")
 	)
 	(wire
 		(pts
@@ -5564,6 +6637,26 @@
 			(type default)
 		)
 		(uuid "0ac54477-f45e-445b-a6a8-60b3555de0a0")
+	)
+	(wire
+		(pts
+			(xy 349.25 494.03) (xy 349.25 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acc957d-5964-4db8-bed9-fae82530ee50")
+	)
+	(wire
+		(pts
+			(xy 166.37 563.88) (xy 199.39 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca394ca-c06d-49af-b0f6-a0a33b749097")
 	)
 	(wire
 		(pts
@@ -5647,6 +6740,16 @@
 	)
 	(wire
 		(pts
+			(xy 431.8 523.24) (xy 486.41 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10aa554f-d8bf-4788-a8c3-dd57e9069538")
+	)
+	(wire
+		(pts
 			(xy 673.1 53.34) (xy 673.1 60.96)
 		)
 		(stroke
@@ -5654,6 +6757,16 @@
 			(type default)
 		)
 		(uuid "10ad613f-0f4c-461b-a2fd-f157f109b7bc")
+	)
+	(wire
+		(pts
+			(xy 153.67 610.87) (xy 186.69 610.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11521214-5bd4-486c-9ddd-935ff2ec4da6")
 	)
 	(wire
 		(pts
@@ -5687,6 +6800,26 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 584.2) (xy 436.88 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138d47f8-1c46-4680-9a34-ef253cb5a6e0")
+	)
+	(wire
+		(pts
+			(xy 303.53 538.48) (xy 303.53 580.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139dd5a9-da4c-414a-920d-5ed39b3114e8")
+	)
+	(wire
+		(pts
 			(xy 449.58 165.1) (xy 449.58 104.14)
 		)
 		(stroke
@@ -5694,6 +6827,16 @@
 			(type default)
 		)
 		(uuid "13d14039-8841-407a-ba1c-9491a354335f")
+	)
+	(wire
+		(pts
+			(xy 351.79 528.32) (xy 323.85 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13edd7ce-c46a-4859-b480-c36354487a82")
 	)
 	(wire
 		(pts
@@ -5737,6 +6880,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 509.27) (xy 358.14 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16409e10-942c-4a5c-a5ec-1a71f900e1ce")
+	)
+	(wire
+		(pts
 			(xy 772.16 170.18) (xy 772.16 160.02)
 		)
 		(stroke
@@ -5767,6 +6920,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 530.86) (xy 350.52 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b8d530-e2c3-42fe-87b8-24efd77f1581")
+	)
+	(wire
+		(pts
 			(xy 276.86 104.14) (xy 289.56 104.14)
 		)
 		(stroke
@@ -5787,6 +6950,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 577.85) (xy 162.56 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b110cf-22ea-4540-a07b-9195ee080a5d")
+	)
+	(wire
+		(pts
+			(xy 143.51 488.95) (xy 146.05 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19de3ff7-d7d9-4fae-8499-989c708c9495")
+	)
+	(wire
+		(pts
 			(xy 238.76 92.71) (xy 238.76 121.92)
 		)
 		(stroke
@@ -5794,6 +6977,36 @@
 			(type default)
 		)
 		(uuid "1a006523-a655-4f6d-8378-2993d2d715c0")
+	)
+	(wire
+		(pts
+			(xy 172.72 541.02) (xy 152.4 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2448fd-d900-4490-9325-0edd7bb1f8a6")
+	)
+	(wire
+		(pts
+			(xy 163.83 566.42) (xy 163.83 580.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a405c33-cc4c-4810-b665-18b180182d79")
+	)
+	(wire
+		(pts
+			(xy 308.61 525.78) (xy 252.73 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a71357d-afe7-4f4b-9ac2-d5cd0a066de5")
 	)
 	(wire
 		(pts
@@ -5837,6 +7050,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 515.62) (xy 252.73 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c52e34c-e2a0-47ef-ae5c-0e1ab295512e")
+	)
+	(wire
+		(pts
 			(xy 631.19 45.72) (xy 631.19 53.34)
 		)
 		(stroke
@@ -5864,6 +7087,16 @@
 			(type default)
 		)
 		(uuid "1d2b4a14-b3fc-477e-8800-cf36419deb60")
+	)
+	(wire
+		(pts
+			(xy 426.72 575.31) (xy 400.05 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d737b0b-4038-463a-8ea3-e339957c1282")
 	)
 	(wire
 		(pts
@@ -5917,6 +7150,16 @@
 	)
 	(wire
 		(pts
+			(xy 426.72 556.26) (xy 395.605 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f28f3e5-e89a-4b45-9906-d7e511d1f833")
+	)
+	(wire
+		(pts
 			(xy 825.5 106.68) (xy 783.59 106.68)
 		)
 		(stroke
@@ -5937,6 +7180,26 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 548.64) (xy 373.38 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201de033-7bf7-4f0f-bf14-2bc56d691e56")
+	)
+	(wire
+		(pts
+			(xy 308.61 575.31) (xy 308.61 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20216b74-829a-455e-b01c-318f2f5d25de")
+	)
+	(wire
+		(pts
 			(xy 292.1 337.82) (xy 292.1 375.92)
 		)
 		(stroke
@@ -5944,6 +7207,16 @@
 			(type default)
 		)
 		(uuid "2048dab7-3247-4dbc-9b91-f31c7d27f62d")
+	)
+	(wire
+		(pts
+			(xy 373.38 548.64) (xy 373.38 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e8d8dd-19db-4126-8d8e-fd0946731496")
 	)
 	(wire
 		(pts
@@ -5987,6 +7260,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 627.38) (xy 184.15 627.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a15c43-26cc-4a26-8e06-11d484e6d1e8")
+	)
+	(wire
+		(pts
 			(xy 382.27 369.57) (xy 298.45 369.57)
 		)
 		(stroke
@@ -5997,6 +7280,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 543.56) (xy 295.91 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233e6260-bdb0-4f28-8801-a9946a8a67e3")
+	)
+	(wire
+		(pts
 			(xy 317.5 312.42) (xy 317.5 320.04)
 		)
 		(stroke
@@ -6004,6 +7297,16 @@
 			(type default)
 		)
 		(uuid "23422217-88ca-4b8b-8e30-a08e8227ed01")
+	)
+	(wire
+		(pts
+			(xy 179.07 554.99) (xy 199.39 554.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23430121-1657-4810-be5c-384818217642")
 	)
 	(wire
 		(pts
@@ -6057,6 +7360,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 548.64) (xy 295.91 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f58e5e-22c4-4846-83d7-aa6c31b592b6")
+	)
+	(wire
+		(pts
 			(xy 289.56 342.9) (xy 289.56 378.46)
 		)
 		(stroke
@@ -6067,6 +7380,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 566.42) (xy 199.39 566.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a1fd73-0f2a-4f53-a931-10dce5c8a8ee")
+	)
+	(wire
+		(pts
+			(xy 176.53 528.32) (xy 176.53 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26547b1e-a009-4242-84e0-6910a4b124ed")
+	)
+	(wire
+		(pts
 			(xy 299.72 322.58) (xy 242.57 322.58)
 		)
 		(stroke
@@ -6074,6 +7407,26 @@
 			(type default)
 		)
 		(uuid "26d490b9-21f4-47cb-a43f-384aa4249711")
+	)
+	(wire
+		(pts
+			(xy 199.39 525.78) (xy 173.99 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f7133f-e507-4632-968c-45c8e1ce3545")
+	)
+	(wire
+		(pts
+			(xy 400.05 562.61) (xy 426.72 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278bff8e-5576-464a-ad46-ce72081bf64c")
 	)
 	(wire
 		(pts
@@ -6127,6 +7480,16 @@
 	)
 	(wire
 		(pts
+			(xy 435.61 566.42) (xy 486.41 566.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2b4310-363c-4889-b98f-218f0926c2b0")
+	)
+	(wire
+		(pts
 			(xy 822.96 109.22) (xy 781.05 109.22)
 		)
 		(stroke
@@ -6164,6 +7527,16 @@
 			(type default)
 		)
 		(uuid "2b3d530e-a3eb-483a-9044-9e5c8c831091")
+	)
+	(wire
+		(pts
+			(xy 312.42 556.26) (xy 312.42 566.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4ae432-3849-4e81-960b-4e2bccb29d5a")
 	)
 	(wire
 		(pts
@@ -6277,6 +7650,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 624.84) (xy 180.34 624.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc62170-5327-444e-bbb6-0f6b7cb9eca3")
+	)
+	(wire
+		(pts
 			(xy 186.69 337.82) (xy 186.69 398.78)
 		)
 		(stroke
@@ -6294,6 +7677,16 @@
 			(type default)
 		)
 		(uuid "303357a1-7850-49eb-a29c-12e2b10b16d9")
+	)
+	(wire
+		(pts
+			(xy 295.91 562.61) (xy 295.91 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31642151-5b61-409e-9b5d-6df223d93619")
 	)
 	(wire
 		(pts
@@ -6377,6 +7770,36 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 491.49) (xy 86.36 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c2e573-dbbe-47f4-8829-d1500cc1a84f")
+	)
+	(wire
+		(pts
+			(xy 199.39 543.56) (xy 184.15 543.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f3b4fa-2a7c-4160-9c77-5d7e445bee30")
+	)
+	(wire
+		(pts
+			(xy 83.82 556.26) (xy 83.82 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35145287-e2fa-4d79-8dd1-9a1926944360")
+	)
+	(wire
+		(pts
 			(xy 298.45 369.57) (xy 298.45 325.12)
 		)
 		(stroke
@@ -6407,6 +7830,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 502.92) (xy 486.41 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36690382-1b11-477e-9f33-005458b6c461")
+	)
+	(wire
+		(pts
 			(xy 341.63 344.17) (xy 379.73 344.17)
 		)
 		(stroke
@@ -6414,6 +7847,26 @@
 			(type default)
 		)
 		(uuid "36e55695-fe4b-4255-ad21-9b5bb802ccf7")
+	)
+	(wire
+		(pts
+			(xy 299.72 541.02) (xy 299.72 584.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3706997c-041b-47e2-be96-72ed1e7a3cc6")
+	)
+	(wire
+		(pts
+			(xy 431.8 579.12) (xy 431.8 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37074179-a016-4377-ab12-8dc24a7b76ef")
 	)
 	(wire
 		(pts
@@ -6444,6 +7897,16 @@
 			(type default)
 		)
 		(uuid "37a29270-c396-4143-b969-1537a249aebf")
+	)
+	(wire
+		(pts
+			(xy 302.26 581.66) (xy 434.34 581.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a2c8c8-237c-4042-8fe2-97e91daf29dd")
 	)
 	(wire
 		(pts
@@ -6517,6 +7980,26 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 546.1) (xy 486.41 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b366da3-2ced-473c-9ff6-72037055df30")
+	)
+	(wire
+		(pts
+			(xy 147.32 556.26) (xy 173.99 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b827101-a87d-4674-803d-64959bf12476")
+	)
+	(wire
+		(pts
 			(xy 745.49 43.18) (xy 745.49 62.23)
 		)
 		(stroke
@@ -6557,6 +8040,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 562.61) (xy 96.52 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d758d0c-dcb1-4c06-9f08-8c2b276c9f35")
+	)
+	(wire
+		(pts
 			(xy 448.31 93.98) (xy 459.74 93.98)
 		)
 		(stroke
@@ -6564,6 +8057,36 @@
 			(type default)
 		)
 		(uuid "3d95a417-3a07-4e5b-b5f2-aae30458b7cf")
+	)
+	(wire
+		(pts
+			(xy 434.34 563.88) (xy 486.41 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3d636f-c3ce-4d10-83cb-e1532d67ec7e")
+	)
+	(wire
+		(pts
+			(xy 152.4 534.67) (xy 157.48 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e408d28-84f7-4984-92b5-15113dcce434")
+	)
+	(wire
+		(pts
+			(xy 426.72 556.26) (xy 426.72 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4df62c-7b27-4401-af8e-c7979655ab5b")
 	)
 	(wire
 		(pts
@@ -6607,6 +8130,46 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 549.91) (xy 389.89 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f081981-3673-4d87-bf6f-a651a021b670")
+	)
+	(wire
+		(pts
+			(xy 295.91 562.61) (xy 298.45 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f62e0be-0070-4155-8ccb-694ace6c8f1e")
+	)
+	(wire
+		(pts
+			(xy 426.72 568.96) (xy 400.05 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff1cae8-b6c3-45eb-8d62-90dc37cd7cae")
+	)
+	(wire
+		(pts
+			(xy 199.39 551.18) (xy 182.88 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40185502-1bf3-419f-a5f0-553a221e2b0e")
+	)
+	(wire
+		(pts
 			(xy 242.57 312.42) (xy 311.15 312.42)
 		)
 		(stroke
@@ -6624,6 +8187,26 @@
 			(type default)
 		)
 		(uuid "4070086e-9496-449b-89c1-a445419f08f6")
+	)
+	(wire
+		(pts
+			(xy 317.5 549.91) (xy 313.69 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ef52d3-9571-4889-b56c-ac68b7c30164")
+	)
+	(wire
+		(pts
+			(xy 438.15 588.01) (xy 298.45 588.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413d6a03-2e27-40c6-9f88-bd1edfa8c52d")
 	)
 	(wire
 		(pts
@@ -6657,6 +8240,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 568.96) (xy 91.44 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424ce563-a96f-4009-8ebe-1be41d783c72")
+	)
+	(wire
+		(pts
 			(xy 270.51 38.1) (xy 273.05 38.1)
 		)
 		(stroke
@@ -6664,6 +8257,26 @@
 			(type default)
 		)
 		(uuid "42625dd7-c536-426f-8664-7c0c53ea0abc")
+	)
+	(wire
+		(pts
+			(xy 304.8 528.32) (xy 304.8 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ec7e71-bc04-43cc-920e-6701942e1e95")
+	)
+	(wire
+		(pts
+			(xy 339.09 549.91) (xy 330.2 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fdaa02-3a8a-4afd-a1a0-f21f20431ae2")
 	)
 	(wire
 		(pts
@@ -6787,6 +8400,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 515.62) (xy 132.08 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476747ad-52ed-4043-b321-13710ea422e7")
+	)
+	(wire
+		(pts
 			(xy 292.1 160.02) (xy 302.26 160.02)
 		)
 		(stroke
@@ -6817,6 +8440,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 566.42) (xy 252.73 566.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490396db-d570-406e-9bac-54a11199bf20")
+	)
+	(wire
+		(pts
 			(xy 662.94 128.27) (xy 662.94 140.97)
 		)
 		(stroke
@@ -6837,6 +8470,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 530.86) (xy 172.72 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49582675-fd1e-4273-9a93-76746732b7b6")
+	)
+	(wire
+		(pts
 			(xy 349.25 83.82) (xy 360.68 83.82)
 		)
 		(stroke
@@ -6844,6 +8487,16 @@
 			(type default)
 		)
 		(uuid "4989c8a6-9b6d-4a5a-9051-841dc2992de6")
+	)
+	(wire
+		(pts
+			(xy 426.72 568.96) (xy 426.72 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c2d1c2-1196-4623-8592-01b2a5f6038e")
 	)
 	(wire
 		(pts
@@ -6887,6 +8540,26 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 541.02) (xy 486.41 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a252c84-deaf-4337-9bde-d638997d99b5")
+	)
+	(wire
+		(pts
+			(xy 323.85 528.32) (xy 323.85 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a68c0e6-f92d-49b1-b8bf-cb54f44f2e24")
+	)
+	(wire
+		(pts
 			(xy 822.96 187.96) (xy 822.96 109.22)
 		)
 		(stroke
@@ -6917,6 +8590,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 528.32) (xy 176.53 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af51599-3427-4c07-89d2-8ab5ebe7fee9")
+	)
+	(wire
+		(pts
+			(xy 359.41 478.79) (xy 359.41 473.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b074b32-964e-435b-97b3-972d1eb3434f")
+	)
+	(wire
+		(pts
 			(xy 312.42 323.85) (xy 312.42 307.34)
 		)
 		(stroke
@@ -6937,6 +8630,16 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 546.1) (xy 438.15 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2f1cb4-1f9d-4642-8757-9ba566e63b40")
+	)
+	(wire
+		(pts
 			(xy 842.01 59.69) (xy 803.91 59.69)
 		)
 		(stroke
@@ -6944,6 +8647,16 @@
 			(type default)
 		)
 		(uuid "4b3c2254-a4c0-4f41-b386-b11a9339a719")
+	)
+	(wire
+		(pts
+			(xy 149.86 574.04) (xy 166.37 574.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7a8ea2-293f-40f3-9545-47d06a89e293")
 	)
 	(wire
 		(pts
@@ -6977,6 +8690,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 533.4) (xy 175.26 533.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bee9827-8858-4051-8d00-0ae6645b6db4")
+	)
+	(wire
+		(pts
 			(xy 195.58 353.06) (xy 195.58 405.13)
 		)
 		(stroke
@@ -6984,6 +8707,16 @@
 			(type default)
 		)
 		(uuid "4c195737-37d3-4629-b426-e39a96909650")
+	)
+	(wire
+		(pts
+			(xy 252.73 528.32) (xy 304.8 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c27a6ce-e426-43da-ba7e-d87fec6f4deb")
 	)
 	(wire
 		(pts
@@ -7057,6 +8790,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 538.48) (xy 303.53 538.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed4036c-b8c1-4b76-b545-1a9fa2add362")
+	)
+	(wire
+		(pts
 			(xy 421.64 317.5) (xy 476.25 317.5)
 		)
 		(stroke
@@ -7064,6 +8807,36 @@
 			(type default)
 		)
 		(uuid "4eed77c8-540b-4f7a-b429-1058606bcc66")
+	)
+	(wire
+		(pts
+			(xy 181.61 541.02) (xy 199.39 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f74f8e7-d709-483b-99ff-75d476b8e375")
+	)
+	(wire
+		(pts
+			(xy 322.58 529.59) (xy 322.58 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f81924d-8d08-47ab-9eed-7c0295661c60")
+	)
+	(wire
+		(pts
+			(xy 426.72 530.86) (xy 426.72 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508897cb-3e86-4c77-90fd-1c3ad1ada035")
 	)
 	(wire
 		(pts
@@ -7087,6 +8860,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 529.59) (xy 322.58 529.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52db89b5-0f72-4b9c-b135-58cbb644ad38")
+	)
+	(wire
+		(pts
 			(xy 242.57 342.9) (xy 289.56 342.9)
 		)
 		(stroke
@@ -7094,6 +8877,46 @@
 			(type default)
 		)
 		(uuid "5314febc-15af-402d-8102-22d704d3534d")
+	)
+	(wire
+		(pts
+			(xy 341.63 508) (xy 344.17 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b246e-35ae-4ad7-8906-ff791dfadc74")
+	)
+	(wire
+		(pts
+			(xy 378.46 502.92) (xy 378.46 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549f6f5b-dc07-4da5-b6f7-5cecffcd93c7")
+	)
+	(wire
+		(pts
+			(xy 133.35 534.67) (xy 128.27 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55231863-ff2d-45a3-b594-6be992fce91c")
+	)
+	(wire
+		(pts
+			(xy 252.73 541.02) (xy 299.72 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5607f9d6-c11e-4b69-a8a8-d1c9452c2473")
 	)
 	(wire
 		(pts
@@ -7227,6 +9050,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 488.95) (xy 143.51 491.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b41ea87-27e9-46af-937d-d8f4352d7c18")
+	)
+	(wire
+		(pts
 			(xy 422.91 335.28) (xy 476.25 335.28)
 		)
 		(stroke
@@ -7277,6 +9110,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 535.94) (xy 295.91 543.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c771b05-e808-4c29-a7ee-0cbf10b2457e")
+	)
+	(wire
+		(pts
 			(xy 341.63 107.95) (xy 342.9 107.95)
 		)
 		(stroke
@@ -7284,6 +9127,16 @@
 			(type default)
 		)
 		(uuid "5c8c7e02-914d-4dc7-b535-3ca727211f08")
+	)
+	(wire
+		(pts
+			(xy 375.92 494.03) (xy 433.07 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccbdba8-edfc-443d-b79f-093377ac6ff2")
 	)
 	(wire
 		(pts
@@ -7337,6 +9190,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 534.67) (xy 330.2 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0d5dd6-a636-4965-ae77-d34a0a2cff9f")
+	)
+	(wire
+		(pts
 			(xy 289.56 378.46) (xy 426.72 378.46)
 		)
 		(stroke
@@ -7347,6 +9210,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 513.08) (xy 256.54 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e73b6a8-14be-4760-a862-5401f53fc23b")
+	)
+	(wire
+		(pts
 			(xy 288.29 382.27) (xy 288.29 347.98)
 		)
 		(stroke
@@ -7354,6 +9227,16 @@
 			(type default)
 		)
 		(uuid "5f20b88b-9957-43d9-92d5-59935d12e564")
+	)
+	(wire
+		(pts
+			(xy 304.8 579.12) (xy 431.8 579.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6042c882-7efc-42e1-8043-9c78821d49fa")
 	)
 	(wire
 		(pts
@@ -7377,6 +9260,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 558.8) (xy 482.6 558.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a68b46-b1e8-48bd-8cf1-9d547bc69df2")
+	)
+	(wire
+		(pts
 			(xy 300.99 173.99) (xy 300.99 172.72)
 		)
 		(stroke
@@ -7394,6 +9287,16 @@
 			(type default)
 		)
 		(uuid "6244e894-ec2d-451f-a26d-3913c9e2bd40")
+	)
+	(wire
+		(pts
+			(xy 252.73 508) (xy 327.66 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626c9b93-87d5-40ad-bee1-6209dd0ad891")
 	)
 	(wire
 		(pts
@@ -7427,6 +9330,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 574.04) (xy 166.37 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6542d06d-5f4f-417c-83c1-cb768cb11398")
+	)
+	(wire
+		(pts
 			(xy 864.87 59.69) (xy 847.09 59.69)
 		)
 		(stroke
@@ -7444,6 +9357,26 @@
 			(type default)
 		)
 		(uuid "65c00d26-8e6f-44c1-b000-797b2ebba320")
+	)
+	(wire
+		(pts
+			(xy 153.67 632.46) (xy 182.88 632.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664b4e12-083f-41b5-9776-4c84a11aac98")
+	)
+	(wire
+		(pts
+			(xy 344.17 509.27) (xy 349.25 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dfbe9f-9de9-4298-9fa3-2e1af51cd050")
 	)
 	(wire
 		(pts
@@ -7467,6 +9400,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 582.93) (xy 435.61 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686ac963-4cc0-42fc-ab68-060214529267")
+	)
+	(wire
+		(pts
 			(xy 288.29 273.05) (xy 288.29 345.44)
 		)
 		(stroke
@@ -7487,6 +9430,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 557.53) (xy 186.69 557.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69be2a31-5d44-4017-ab6f-416afadc849e")
+	)
+	(wire
+		(pts
 			(xy 382.27 107.95) (xy 382.27 116.84)
 		)
 		(stroke
@@ -7504,6 +9457,16 @@
 			(type default)
 		)
 		(uuid "6a6bab0c-93f0-4a81-841c-247a9c1b196a")
+	)
+	(wire
+		(pts
+			(xy 359.41 494.03) (xy 375.92 494.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3a40b3-79b2-434a-a05c-4021eed98b07")
 	)
 	(wire
 		(pts
@@ -7557,6 +9520,26 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 563.88) (xy 297.18 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbcaa51-e4bd-4e73-a49a-a0e48b5ab13c")
+	)
+	(wire
+		(pts
+			(xy 252.73 557.53) (xy 295.91 557.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc93365-0e32-496a-a9dd-6f005c1a296d")
+	)
+	(wire
+		(pts
 			(xy 290.83 200.66) (xy 293.37 200.66)
 		)
 		(stroke
@@ -7574,6 +9557,16 @@
 			(type default)
 		)
 		(uuid "7005dcf1-82c7-40ec-a0a0-db45e6703e6e")
+	)
+	(wire
+		(pts
+			(xy 256.54 513.08) (xy 256.54 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7056a9d1-70f7-4083-991b-3562c4d6560e")
 	)
 	(wire
 		(pts
@@ -7607,6 +9600,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 509.27) (xy 351.79 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ca8c75-78e0-4cb7-b40c-73583e3081ad")
+	)
+	(wire
+		(pts
+			(xy 153.67 604.52) (xy 177.8 604.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7207f148-7a6e-46ce-bdb7-a9cb84f949ee")
+	)
+	(wire
+		(pts
 			(xy 673.1 53.34) (xy 670.56 53.34)
 		)
 		(stroke
@@ -7624,6 +9637,16 @@
 			(type default)
 		)
 		(uuid "7293af04-d40b-4e20-80e8-afeeee7dd48e")
+	)
+	(wire
+		(pts
+			(xy 182.88 551.18) (xy 182.88 632.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b470a5-4610-44c9-8c36-b47b9fc73912")
 	)
 	(wire
 		(pts
@@ -7657,6 +9680,36 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 546.1) (xy 177.8 604.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f8fac1-3d3d-4ef1-a863-e5aa67d40128")
+	)
+	(wire
+		(pts
+			(xy 306.07 533.4) (xy 306.07 577.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c15d66-dd27-4511-9054-05e0d762bc77")
+	)
+	(wire
+		(pts
+			(xy 168.91 508) (xy 173.99 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cb022e-2872-48a7-b371-2fd6f6b0c74e")
+	)
+	(wire
+		(pts
 			(xy 194.31 350.52) (xy 194.31 393.7)
 		)
 		(stroke
@@ -7674,6 +9727,16 @@
 			(type default)
 		)
 		(uuid "76283471-d1ba-4f9e-b9c0-6106a07068c9")
+	)
+	(wire
+		(pts
+			(xy 134.62 520.7) (xy 134.62 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768c32c7-8293-4f35-aef1-4a680b5602f7")
 	)
 	(wire
 		(pts
@@ -7714,6 +9777,16 @@
 			(type default)
 		)
 		(uuid "77626438-dc8d-458a-b275-04c7c87e3f0a")
+	)
+	(wire
+		(pts
+			(xy 295.91 535.94) (xy 252.73 535.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781d84eb-2f59-4eb4-9043-ebe1660dd91f")
 	)
 	(wire
 		(pts
@@ -7787,6 +9860,36 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 530.86) (xy 350.52 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a828c45-e546-403b-b0f1-5387d249b88e")
+	)
+	(wire
+		(pts
+			(xy 351.79 529.59) (xy 351.79 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8fa323-533c-409f-af12-d69cb5e089e1")
+	)
+	(wire
+		(pts
+			(xy 300.99 554.99) (xy 300.99 582.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae39155-73f5-4eac-b434-1b038f57247f")
+	)
+	(wire
+		(pts
 			(xy 142.24 328.93) (xy 137.16 328.93)
 		)
 		(stroke
@@ -7794,6 +9897,16 @@
 			(type default)
 		)
 		(uuid "7b0e3c29-6cfd-4c04-90a7-c24162e5479d")
+	)
+	(wire
+		(pts
+			(xy 130.81 513.08) (xy 130.81 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1be652-8fb0-4278-8e54-fa884e4e9d3a")
 	)
 	(wire
 		(pts
@@ -7817,6 +9930,56 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 533.4) (xy 175.26 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c656db5-6972-4dc6-ba79-263b8638aac7")
+	)
+	(wire
+		(pts
+			(xy 130.81 520.7) (xy 128.27 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cafe09d-e245-4c94-9cd2-872c471e48ea")
+	)
+	(wire
+		(pts
+			(xy 435.61 582.93) (xy 435.61 566.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc91d1c-ba44-4a2c-8a05-220ad40806a9")
+	)
+	(wire
+		(pts
+			(xy 298.45 551.18) (xy 252.73 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf9540a-0cce-4344-a88a-a5938f343c9c")
+	)
+	(wire
+		(pts
+			(xy 321.31 518.16) (xy 321.31 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d130049-e318-4655-9fcd-e5ea509cb426")
+	)
+	(wire
+		(pts
 			(xy 340.36 325.12) (xy 340.36 344.17)
 		)
 		(stroke
@@ -7824,6 +9987,16 @@
 			(type default)
 		)
 		(uuid "7d505f56-4915-4cfe-8d29-0b31cefdd0ce")
+	)
+	(wire
+		(pts
+			(xy 481.33 589.28) (xy 481.33 586.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1301ce-fefa-42f3-bf75-1a447bc44751")
 	)
 	(wire
 		(pts
@@ -7837,6 +10010,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 525.78) (xy 173.99 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6b00f7-3bec-4771-9095-cd7c8aaa6c88")
+	)
+	(wire
+		(pts
 			(xy 673.1 162.56) (xy 673.1 171.45)
 		)
 		(stroke
@@ -7844,6 +10027,26 @@
 			(type default)
 		)
 		(uuid "7f936873-2cc4-45f6-a3c8-0546f75f190c")
+	)
+	(wire
+		(pts
+			(xy 180.34 538.48) (xy 199.39 538.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb45372-6900-4ea3-afcf-edcb6fe407f8")
+	)
+	(wire
+		(pts
+			(xy 450.85 520.7) (xy 486.41 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803d253d-7700-4307-ab46-18326ebf5049")
 	)
 	(wire
 		(pts
@@ -7937,6 +10140,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 530.86) (xy 486.41 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833aed99-2fab-403a-bef0-7d950d8dedb8")
+	)
+	(wire
+		(pts
 			(xy 734.06 46.99) (xy 791.21 46.99)
 		)
 		(stroke
@@ -7957,6 +10170,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 575.31) (xy 308.61 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d041e4-8075-42a4-aa0d-7ec3cd8613ad")
+	)
+	(wire
+		(pts
 			(xy 290.83 340.36) (xy 290.83 377.19)
 		)
 		(stroke
@@ -7964,6 +10187,16 @@
 			(type default)
 		)
 		(uuid "842ecbbb-fd39-4299-815a-5f169f334b3d")
+	)
+	(wire
+		(pts
+			(xy 389.89 509.27) (xy 389.89 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85155eab-5f08-4072-a992-b7164233ba05")
 	)
 	(wire
 		(pts
@@ -7977,6 +10210,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 541.02) (xy 351.79 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86266f6e-ea77-4a64-8f88-9b7d1e58920c")
+	)
+	(wire
+		(pts
 			(xy 316.23 114.3) (xy 334.01 114.3)
 		)
 		(stroke
@@ -7984,6 +10227,46 @@
 			(type default)
 		)
 		(uuid "864c398d-1662-4234-879d-86758281ff34")
+	)
+	(wire
+		(pts
+			(xy 482.6 556.26) (xy 482.6 558.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869c220c-292e-4564-b365-264ecc07671d")
+	)
+	(wire
+		(pts
+			(xy 433.07 561.34) (xy 486.41 561.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87419484-7e3b-4983-a27c-e307366ee3a3")
+	)
+	(wire
+		(pts
+			(xy 148.59 523.24) (xy 199.39 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878942ec-019b-4991-9b02-b1530f3f6416")
+	)
+	(wire
+		(pts
+			(xy 252.73 533.4) (xy 306.07 533.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ae41d5-dbae-47ce-9dfc-5e2f54e63528")
 	)
 	(wire
 		(pts
@@ -8097,6 +10380,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 488.95) (xy 146.05 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d00c768-15c8-4ca2-99a1-2360b7835333")
+	)
+	(wire
+		(pts
+			(xy 358.14 509.27) (xy 358.14 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d893295-cf1d-457a-a642-28bfe3abcf77")
+	)
+	(wire
+		(pts
 			(xy 219.71 26.67) (xy 219.71 209.55)
 		)
 		(stroke
@@ -8144,6 +10447,16 @@
 			(type default)
 		)
 		(uuid "90c8582c-429b-4730-832e-405107e393bb")
+	)
+	(wire
+		(pts
+			(xy 252.73 518.16) (xy 321.31 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913c91e0-46e6-41dd-93c0-49119663f09a")
 	)
 	(wire
 		(pts
@@ -8247,6 +10560,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 478.79) (xy 298.45 478.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944a43af-8d28-48f7-bb44-ffbbb81f20ef")
+	)
+	(wire
+		(pts
 			(xy 349.25 40.64) (xy 349.25 50.8)
 		)
 		(stroke
@@ -8274,6 +10597,26 @@
 			(type default)
 		)
 		(uuid "94af0e92-d345-4529-91af-ffb1cfcc4cd0")
+	)
+	(wire
+		(pts
+			(xy 88.9 568.96) (xy 91.44 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95252704-ca93-4476-9a6b-39f041c45f2e")
+	)
+	(wire
+		(pts
+			(xy 148.59 529.59) (xy 157.48 529.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957c9c33-dba8-4c88-8ee5-ec4935dd84e7")
 	)
 	(wire
 		(pts
@@ -8307,6 +10650,26 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 494.03) (xy 433.07 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b76964-b4da-4af9-a4b0-232de1907ffb")
+	)
+	(wire
+		(pts
+			(xy 184.15 543.56) (xy 184.15 627.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f1a52c-5466-469c-9333-598a09ca2661")
+	)
+	(wire
+		(pts
 			(xy 778.51 64.77) (xy 778.51 74.93)
 		)
 		(stroke
@@ -8324,6 +10687,16 @@
 			(type default)
 		)
 		(uuid "981e1e46-a21f-4b20-8a46-668c007e0bd0")
+	)
+	(wire
+		(pts
+			(xy 313.69 549.91) (xy 313.69 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982f828d-b12a-484d-ab77-612b8ecdfc2f")
 	)
 	(wire
 		(pts
@@ -8357,6 +10730,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 525.78) (xy 332.74 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99287c37-e650-4db4-a42b-50ff3fe33ad4")
+	)
+	(wire
+		(pts
 			(xy 745.49 74.93) (xy 745.49 83.82)
 		)
 		(stroke
@@ -8374,6 +10757,16 @@
 			(type default)
 		)
 		(uuid "9997c39b-a3fd-4b45-9150-eec959266e44")
+	)
+	(wire
+		(pts
+			(xy 133.35 518.16) (xy 133.35 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9998b19d-6e9c-41b2-9119-a5ac312ea047")
 	)
 	(wire
 		(pts
@@ -8417,6 +10810,16 @@
 	)
 	(wire
 		(pts
+			(xy 422.91 520.7) (xy 443.23 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a48cdbb-67b5-4bad-b8b8-4c1dd5604bd8")
+	)
+	(wire
+		(pts
 			(xy 365.76 288.29) (xy 422.91 288.29)
 		)
 		(stroke
@@ -8424,6 +10827,16 @@
 			(type default)
 		)
 		(uuid "9b67d899-612a-4ada-97d9-b7adbe195ac2")
+	)
+	(wire
+		(pts
+			(xy 199.39 535.94) (xy 184.15 535.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7df5c9-6931-4356-bbf6-b8ce578b2893")
 	)
 	(wire
 		(pts
@@ -8457,6 +10870,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 546.1) (xy 438.15 588.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c894d30-0bfe-4eb7-ba6e-2f6d2a7ad9a0")
+	)
+	(wire
+		(pts
 			(xy 769.62 170.18) (xy 769.62 165.1)
 		)
 		(stroke
@@ -8487,6 +10910,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 541.02) (xy 96.52 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc08531-9d33-4efd-9f47-beda9264675d")
+	)
+	(wire
+		(pts
 			(xy 339.09 297.18) (xy 339.09 303.53)
 		)
 		(stroke
@@ -8497,6 +10930,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 580.39) (xy 433.07 580.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd58e12-ad11-483a-8481-3a541bd08d34")
+	)
+	(wire
+		(pts
 			(xy 839.47 62.23) (xy 839.47 66.04)
 		)
 		(stroke
@@ -8504,6 +10947,16 @@
 			(type default)
 		)
 		(uuid "9d022cb7-c50b-4200-9a16-6ab5c9a4ac4f")
+	)
+	(wire
+		(pts
+			(xy 152.4 537.21) (xy 184.15 537.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5d6b31-0442-483c-a633-bfceedceb8cd")
 	)
 	(wire
 		(pts
@@ -8547,6 +11000,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 577.85) (xy 430.53 577.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f31b93e-7435-46e0-905a-79aa70c71b73")
+	)
+	(wire
+		(pts
 			(xy 735.33 170.18) (xy 735.33 160.02)
 		)
 		(stroke
@@ -8554,6 +11017,16 @@
 			(type default)
 		)
 		(uuid "9f4a7353-710e-413d-b5d4-01f148316309")
+	)
+	(wire
+		(pts
+			(xy 392.43 568.96) (xy 309.88 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff6a88e-300a-4d38-bf84-6c0cf73b1979")
 	)
 	(wire
 		(pts
@@ -8577,6 +11050,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 518.16) (xy 344.17 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11aa483-5248-4aa8-9258-f8563454cf43")
+	)
+	(wire
+		(pts
 			(xy 862.33 71.12) (xy 864.87 71.12)
 		)
 		(stroke
@@ -8584,6 +11067,16 @@
 			(type default)
 		)
 		(uuid "a33d74c9-b9fa-4a85-847b-1a41c6848fb7")
+	)
+	(wire
+		(pts
+			(xy 179.07 554.99) (xy 179.07 615.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35b845f-1204-44ac-b358-21acfb8759ad")
 	)
 	(wire
 		(pts
@@ -8637,6 +11130,26 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 505.46) (xy 328.93 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a453b17b-c69c-4d54-b658-cac0f2051bb8")
+	)
+	(wire
+		(pts
+			(xy 152.4 539.75) (xy 175.26 539.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47084c8-4b3e-4c8e-930c-00b0a1e0037f")
+	)
+	(wire
+		(pts
 			(xy 453.39 129.54) (xy 453.39 119.38)
 		)
 		(stroke
@@ -8654,6 +11167,16 @@
 			(type default)
 		)
 		(uuid "a4c7c357-be2d-444f-90ed-315cdc3a4596")
+	)
+	(wire
+		(pts
+			(xy 124.46 486.41) (xy 133.35 486.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5483f18-87e5-45fc-ae3d-faf6b7e8a1df")
 	)
 	(wire
 		(pts
@@ -8687,6 +11210,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 562.61) (xy 96.52 571.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68adafb-7c38-4827-a604-6cb42d2f0776")
+	)
+	(wire
+		(pts
 			(xy 242.57 332.74) (xy 294.64 332.74)
 		)
 		(stroke
@@ -8694,6 +11227,16 @@
 			(type default)
 		)
 		(uuid "a7068dd2-b455-487c-8852-a641cf63ec24")
+	)
+	(wire
+		(pts
+			(xy 149.86 577.85) (xy 153.035 577.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7456a35-b96d-4f71-bea8-4f3171211794")
 	)
 	(wire
 		(pts
@@ -8714,6 +11257,36 @@
 			(type default)
 		)
 		(uuid "a869d970-c962-4631-b398-4b9e53e7dbd2")
+	)
+	(wire
+		(pts
+			(xy 256.54 513.08) (xy 252.73 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b0f45b-e196-490f-ae19-fd1f54e16ee3")
+	)
+	(wire
+		(pts
+			(xy 298.45 588.01) (xy 298.45 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97a1c4e-2455-413f-8fb1-e8eb8394b97e")
+	)
+	(wire
+		(pts
+			(xy 433.07 580.39) (xy 433.07 561.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0aff5c-857b-493e-a258-7ca0e0f19968")
 	)
 	(wire
 		(pts
@@ -8777,6 +11350,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 586.74) (xy 486.41 586.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad22c3d6-a34f-4b62-ad3d-2dfc589430bf")
+	)
+	(wire
+		(pts
 			(xy 422.91 355.6) (xy 476.25 355.6)
 		)
 		(stroke
@@ -8787,6 +11370,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 508) (xy 327.66 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af925a6a-1cfd-4978-99da-a04ae107fc0c")
+	)
+	(wire
+		(pts
 			(xy 317.5 81.28) (xy 336.55 81.28)
 		)
 		(stroke
@@ -8794,6 +11387,36 @@
 			(type default)
 		)
 		(uuid "afef2a9e-4de6-4847-aa93-f78f91317a7f")
+	)
+	(wire
+		(pts
+			(xy 128.27 510.54) (xy 199.39 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c54b93-556f-4367-b8c3-5a9954d5aa2e")
+	)
+	(wire
+		(pts
+			(xy 351.79 541.02) (xy 355.6 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cfd33a-b582-4b45-93ef-cb39daebcc40")
+	)
+	(wire
+		(pts
+			(xy 199.39 530.86) (xy 172.72 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12ba969-8645-4761-8d65-b3286d33d085")
 	)
 	(wire
 		(pts
@@ -8824,6 +11447,16 @@
 			(type default)
 		)
 		(uuid "b1b53533-8cc0-45ef-813b-dc36a936590d")
+	)
+	(wire
+		(pts
+			(xy 184.15 537.21) (xy 184.15 535.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c52bc3-aeaa-4099-ad74-da5870a6e29c")
 	)
 	(wire
 		(pts
@@ -8907,6 +11540,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 580.39) (xy 149.86 580.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b601e5b7-0713-465b-9342-5bb77f796f6f")
+	)
+	(wire
+		(pts
 			(xy 416.56 363.22) (xy 416.56 369.57)
 		)
 		(stroke
@@ -8924,6 +11567,36 @@
 			(type default)
 		)
 		(uuid "b619f484-d5c4-4c86-b98d-1fc6a3083f74")
+	)
+	(wire
+		(pts
+			(xy 328.93 518.16) (xy 327.66 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70164f0-dae2-42c1-b452-ef17109aa73d")
+	)
+	(wire
+		(pts
+			(xy 187.96 488.95) (xy 187.96 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74120c6-eee3-42d9-ba91-556f22db1b6d")
+	)
+	(wire
+		(pts
+			(xy 350.52 549.91) (xy 339.09 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7556bfd-a948-4f29-b267-9c3099d1da1c")
 	)
 	(wire
 		(pts
@@ -8967,6 +11640,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 529.59) (xy 323.85 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b889176a-f84c-4b6d-a813-646417a32ae9")
+	)
+	(wire
+		(pts
 			(xy 711.2 74.93) (xy 713.74 74.93)
 		)
 		(stroke
@@ -8984,6 +11667,16 @@
 			(type default)
 		)
 		(uuid "b8ef208b-321c-4d82-95c7-aa8f3a4559c3")
+	)
+	(wire
+		(pts
+			(xy 360.68 478.79) (xy 359.41 478.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90c79c6-a657-40db-8c8c-239de0c50015")
 	)
 	(wire
 		(pts
@@ -9017,6 +11710,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 505.46) (xy 199.39 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa453ec-05be-4e9b-8e99-6f613af48a03")
+	)
+	(wire
+		(pts
 			(xy 341.63 323.85) (xy 341.63 335.28)
 		)
 		(stroke
@@ -9024,6 +11727,16 @@
 			(type default)
 		)
 		(uuid "bab2b431-6300-47d0-a9b7-9e6523c5ed8a")
+	)
+	(wire
+		(pts
+			(xy 177.8 546.1) (xy 199.39 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb33b63f-1d92-4b53-9e98-aec5cb03b096")
 	)
 	(wire
 		(pts
@@ -9067,6 +11780,26 @@
 	)
 	(wire
 		(pts
+			(xy 426.72 562.61) (xy 426.72 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6d14cc-78e9-4c11-869a-f64f3c0e97f0")
+	)
+	(wire
+		(pts
+			(xy 181.61 622.3) (xy 181.61 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8af24e-4233-4c65-b9c8-178d65372f99")
+	)
+	(wire
+		(pts
 			(xy 345.44 335.28) (xy 347.98 335.28)
 		)
 		(stroke
@@ -9107,6 +11840,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 599.44) (xy 185.42 599.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf69f19d-38ab-4bc0-ab07-25d8afe4edb1")
+	)
+	(wire
+		(pts
 			(xy 328.93 336.55) (xy 328.93 328.93)
 		)
 		(stroke
@@ -9137,6 +11880,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 568.96) (xy 199.39 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f50959-7675-42c9-ad10-5cc9276cc9de")
+	)
+	(wire
+		(pts
+			(xy 309.88 568.96) (xy 309.88 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14d3ecc-5586-4683-a92b-560ddc48f478")
+	)
+	(wire
+		(pts
 			(xy 196.85 283.21) (xy 196.85 299.72)
 		)
 		(stroke
@@ -9144,6 +11907,16 @@
 			(type default)
 		)
 		(uuid "c18fb1ff-b491-4a45-abaf-19ea4911d67d")
+	)
+	(wire
+		(pts
+			(xy 422.91 520.7) (xy 422.91 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19a7c6f-029d-4491-bb40-a75464a16e6a")
 	)
 	(wire
 		(pts
@@ -9167,6 +11940,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 508) (xy 199.39 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cfc51f-7943-43c1-846d-efb688454a49")
+	)
+	(wire
+		(pts
 			(xy 728.98 82.55) (xy 728.98 74.93)
 		)
 		(stroke
@@ -9184,6 +11967,16 @@
 			(type default)
 		)
 		(uuid "c3ac39c3-bf21-4705-8b33-0878b11a46a5")
+	)
+	(wire
+		(pts
+			(xy 252.73 546.1) (xy 302.26 546.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d7ca7c-870c-4194-b036-bc0384c23d31")
 	)
 	(wire
 		(pts
@@ -9234,6 +12027,26 @@
 			(type default)
 		)
 		(uuid "c62d1253-2432-443f-ae6e-3e258276a531")
+	)
+	(wire
+		(pts
+			(xy 153.67 577.85) (xy 162.56 577.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68b70f3-7770-4c80-b166-d40c19df2795")
+	)
+	(wire
+		(pts
+			(xy 297.18 563.88) (xy 297.18 589.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a83c7e-0e2e-4d86-ad38-c540aeb9185a")
 	)
 	(wire
 		(pts
@@ -9307,6 +12120,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 589.28) (xy 481.33 589.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca78acf8-bf03-4cdc-9f75-25b46413bddb")
+	)
+	(wire
+		(pts
 			(xy 308.61 203.2) (xy 314.96 203.2)
 		)
 		(stroke
@@ -9334,6 +12157,16 @@
 			(type default)
 		)
 		(uuid "cbd67be4-bec2-466a-a143-e16be2526677")
+	)
+	(wire
+		(pts
+			(xy 186.69 557.53) (xy 186.69 610.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3f79f4-83dc-499f-8bc0-e951cf3d74ab")
 	)
 	(wire
 		(pts
@@ -9367,6 +12200,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 556.26) (xy 312.42 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb2d00b-4fa1-4dbb-9a1c-8b354007cbb2")
+	)
+	(wire
+		(pts
 			(xy 427.99 382.27) (xy 288.29 382.27)
 		)
 		(stroke
@@ -9377,6 +12220,16 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 577.85) (xy 430.53 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce6de98-01b4-4623-8c4b-84fe2c610968")
+	)
+	(wire
+		(pts
 			(xy 316.23 118.11) (xy 429.26 118.11)
 		)
 		(stroke
@@ -9384,6 +12237,16 @@
 			(type default)
 		)
 		(uuid "cd9a70d0-28f3-47b4-9a52-7460d19c9c33")
+	)
+	(wire
+		(pts
+			(xy 373.38 530.86) (xy 378.46 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce57bdce-7dcd-4e78-9d7b-4ecc4c212591")
 	)
 	(wire
 		(pts
@@ -9447,6 +12310,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 548.64) (xy 185.42 548.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10afd2d-0a3f-47b6-8cb9-ee2e37cb91cc")
+	)
+	(wire
+		(pts
 			(xy 105.41 356.87) (xy 105.41 365.76)
 		)
 		(stroke
@@ -9474,6 +12347,16 @@
 			(type default)
 		)
 		(uuid "d25b8ae0-e772-402c-829d-4e0c1a6a09d2")
+	)
+	(wire
+		(pts
+			(xy 434.34 581.66) (xy 434.34 563.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b2c0fb-b82e-4453-a071-7af28eec7480")
 	)
 	(wire
 		(pts
@@ -9547,6 +12430,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 510.54) (xy 252.73 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fc5674-7f84-4ab1-b9dc-38ba82108cc1")
+	)
+	(wire
+		(pts
 			(xy 628.65 43.18) (xy 628.65 45.72)
 		)
 		(stroke
@@ -9554,6 +12447,16 @@
 			(type default)
 		)
 		(uuid "d65103d2-af7d-4415-8196-07331e7974c5")
+	)
+	(wire
+		(pts
+			(xy 349.25 509.27) (xy 351.79 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a5ec9c-be59-47f7-9226-2875e7a6b031")
 	)
 	(wire
 		(pts
@@ -9584,6 +12487,16 @@
 			(type default)
 		)
 		(uuid "d73cd249-ba43-40bd-8d8c-3b6b059b00e9")
+	)
+	(wire
+		(pts
+			(xy 132.08 515.62) (xy 132.08 524.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ababa6-6e7e-4d70-af21-0c2b5dd39b0b")
 	)
 	(wire
 		(pts
@@ -9627,6 +12540,26 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 548.64) (xy 295.91 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88b9b27-38f8-4c11-b826-42c7ff67645f")
+	)
+	(wire
+		(pts
+			(xy 313.69 520.7) (xy 252.73 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8906b28-9c7c-4d73-9182-36cbf4cfa232")
+	)
+	(wire
+		(pts
 			(xy 292.1 129.54) (xy 453.39 129.54)
 		)
 		(stroke
@@ -9634,6 +12567,16 @@
 			(type default)
 		)
 		(uuid "d8df56a0-cdcc-40b1-89b5-e88c98d736e4")
+	)
+	(wire
+		(pts
+			(xy 344.17 509.27) (xy 344.17 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9144916-ee6d-4d48-b316-f8c2a8750b9e")
 	)
 	(wire
 		(pts
@@ -9677,6 +12620,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 556.26) (xy 482.6 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4d0146-0e8c-486c-bc81-7604e7ff3d6f")
+	)
+	(wire
+		(pts
 			(xy 185.42 332.74) (xy 185.42 382.27)
 		)
 		(stroke
@@ -9707,6 +12660,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 508) (xy 158.75 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db63c01f-d92a-4b4a-ab6f-ec9b655e3131")
+	)
+	(wire
+		(pts
 			(xy 711.2 82.55) (xy 728.98 82.55)
 		)
 		(stroke
@@ -9724,6 +12687,16 @@
 			(type default)
 		)
 		(uuid "dc768fab-2dfc-4581-8578-2aec74854815")
+	)
+	(wire
+		(pts
+			(xy 199.39 518.16) (xy 133.35 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf89606-8e4d-42b4-b101-916c1f9cd978")
 	)
 	(wire
 		(pts
@@ -9747,6 +12720,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 622.3) (xy 181.61 622.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfbca99-3b1f-4147-ac63-69db2bbe226c")
+	)
+	(wire
+		(pts
 			(xy 377.19 40.64) (xy 425.45 40.64)
 		)
 		(stroke
@@ -9764,6 +12747,26 @@
 			(type default)
 		)
 		(uuid "df1bfc52-ad80-4fd8-b021-5a6c42ee4ff3")
+	)
+	(wire
+		(pts
+			(xy 302.26 546.1) (xy 302.26 581.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3f873b-cf66-483f-988a-71512ff954e9")
+	)
+	(wire
+		(pts
+			(xy 252.73 568.96) (xy 295.91 568.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd0ae75-7493-4b81-879c-a35b628abeb1")
 	)
 	(wire
 		(pts
@@ -9797,6 +12800,26 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 534.67) (xy 320.04 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14ed028-3901-42e9-a194-652225140b5b")
+	)
+	(wire
+		(pts
+			(xy 311.15 562.61) (xy 311.15 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e288d4c2-994c-4cd2-a924-67d9189759a8")
+	)
+	(wire
+		(pts
 			(xy 842.01 57.15) (xy 842.01 59.69)
 		)
 		(stroke
@@ -9807,6 +12830,16 @@
 	)
 	(wire
 		(pts
+			(xy 408.94 541.02) (xy 422.91 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d98f5e-a8dc-4db6-abcd-3e010292695d")
+	)
+	(wire
+		(pts
 			(xy 416.56 369.57) (xy 389.89 369.57)
 		)
 		(stroke
@@ -9814,6 +12847,16 @@
 			(type default)
 		)
 		(uuid "e3c4f2c2-112f-4e5c-bc71-87cb91ae880b")
+	)
+	(wire
+		(pts
+			(xy 349.25 502.92) (xy 349.25 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ce0492-5702-4200-8bec-f23db8644a92")
 	)
 	(wire
 		(pts
@@ -9867,6 +12910,36 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 525.78) (xy 344.17 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7640009-499b-48f1-955a-dec98b342d2b")
+	)
+	(wire
+		(pts
+			(xy 351.79 529.59) (xy 323.85 529.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b624af-692d-4478-81e8-7434d2494625")
+	)
+	(wire
+		(pts
+			(xy 344.17 525.78) (xy 344.17 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ea86c6-2c3a-4d98-95aa-03e1420a0793")
+	)
+	(wire
+		(pts
 			(xy 208.28 314.96) (xy 143.51 314.96)
 		)
 		(stroke
@@ -9884,6 +12957,16 @@
 			(type default)
 		)
 		(uuid "e9353e3f-b443-4dbb-914a-a240944b88a6")
+	)
+	(wire
+		(pts
+			(xy 298.45 478.79) (xy 298.45 551.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98e21f7-4f05-4b7e-8da9-aa62b3b36b12")
 	)
 	(wire
 		(pts
@@ -9957,6 +13040,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 530.86) (xy 426.72 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd15bac-8fbe-4607-8550-56a6bd200eac")
+	)
+	(wire
+		(pts
 			(xy 140.97 309.88) (xy 140.97 318.77)
 		)
 		(stroke
@@ -10004,6 +13097,26 @@
 			(type default)
 		)
 		(uuid "edabed12-34cf-4e5f-9bbb-20c5aa3957f2")
+	)
+	(wire
+		(pts
+			(xy 179.07 615.95) (xy 153.67 615.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcfa028-0dfa-4503-8900-5a9966ae09d7")
+	)
+	(wire
+		(pts
+			(xy 185.42 548.64) (xy 185.42 599.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3c6ccf-85ff-4a9f-a2eb-45ef4fac3cbe")
 	)
 	(wire
 		(pts
@@ -10057,6 +13170,26 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 530.86) (xy 252.73 530.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb609d5-7948-423e-a4c8-5700fa3115f0")
+	)
+	(wire
+		(pts
+			(xy 86.36 491.49) (xy 86.36 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bb41e5-ee99-4755-9fa2-10957a5756af")
+	)
+	(wire
+		(pts
 			(xy 179.07 339.09) (xy 160.02 339.09)
 		)
 		(stroke
@@ -10067,6 +13200,26 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 541.02) (xy 358.14 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ba58ca-2875-464f-aa13-bc44916146e9")
+	)
+	(wire
+		(pts
+			(xy 392.43 562.61) (xy 311.15 562.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20cc34f-98e3-40da-bdd0-7d72035b1656")
+	)
+	(wire
+		(pts
 			(xy 631.19 45.72) (xy 628.65 45.72)
 		)
 		(stroke
@@ -10074,6 +13227,16 @@
 			(type default)
 		)
 		(uuid "f2520ecd-437e-41e1-998f-393956347859")
+	)
+	(wire
+		(pts
+			(xy 140.97 488.95) (xy 143.51 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28d8ee7-c216-4aa6-a71c-72385d6e60b3")
 	)
 	(wire
 		(pts
@@ -10094,6 +13257,26 @@
 			(type default)
 		)
 		(uuid "f3a24968-163f-4129-accd-be7dfa67ccd3")
+	)
+	(wire
+		(pts
+			(xy 156.21 636.27) (xy 153.67 636.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d57942-c467-42c3-a18e-0ab8b8bd3b94")
+	)
+	(wire
+		(pts
+			(xy 252.73 543.56) (xy 295.91 543.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e2ef44-0222-498c-b082-4419391b401d")
 	)
 	(wire
 		(pts
@@ -10144,6 +13327,16 @@
 			(type default)
 		)
 		(uuid "f71f6edf-8a04-4ad7-a9ef-8979b744c36d")
+	)
+	(wire
+		(pts
+			(xy 199.39 513.08) (xy 130.81 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77fcecb-f8af-40f2-8248-fbf061ef1b8f")
 	)
 	(wire
 		(pts
@@ -10207,6 +13400,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 509.27) (xy 389.89 509.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b99031-1e70-4285-8bf3-7b46b6e59146")
+	)
+	(wire
+		(pts
 			(xy 450.85 88.9) (xy 459.74 88.9)
 		)
 		(stroke
@@ -10214,6 +13417,26 @@
 			(type default)
 		)
 		(uuid "f9d953cb-c6ab-41e1-9971-0e17ea4c5752")
+	)
+	(wire
+		(pts
+			(xy 405.13 541.02) (xy 408.94 541.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f164e4-e2f6-43ff-a53e-ff39e875377b")
+	)
+	(wire
+		(pts
+			(xy 389.89 541.02) (xy 389.89 549.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f3baaa-d19a-4efd-a574-3b6e3d57ebe5")
 	)
 	(wire
 		(pts
@@ -10287,6 +13510,36 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 542.29) (xy 339.09 534.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb07e4d-0c37-4b8c-bd08-808401325d07")
+	)
+	(wire
+		(pts
+			(xy 199.39 520.7) (xy 134.62 520.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcc9c7c-61f5-4ccf-b3d2-5c7b4c39f994")
+	)
+	(wire
+		(pts
+			(xy 311.15 523.24) (xy 252.73 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe62673-cd8f-4529-ba39-1dc6618a4e1b")
+	)
+	(wire
+		(pts
 			(xy 678.18 99.06) (xy 678.18 107.95)
 		)
 		(stroke
@@ -10294,6 +13547,16 @@
 			(type default)
 		)
 		(uuid "fc55b644-8de0-4229-8d19-424b9ccaa194")
+	)
+	(wire
+		(pts
+			(xy 132.08 524.51) (xy 128.27 524.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd19335c-7bff-4b63-a691-86045de7e4e0")
 	)
 	(wire
 		(pts
@@ -10314,6 +13577,16 @@
 			(type default)
 		)
 		(uuid "fd5c91d1-9d20-4af9-9aa5-ea464d5c7116")
+	)
+	(wire
+		(pts
+			(xy 252.73 554.99) (xy 300.99 554.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd95e529-de7b-4baf-a8d0-d9a59cc4cabd")
 	)
 	(wire
 		(pts
@@ -10609,6 +13882,85 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 375.92 486.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07c951ba-9dfa-4e61-a003-d1567aa73dca")
+		(property "Reference" "#PWR056"
+			(at 375.92 481.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 372.364 486.156 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 485.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 375.92 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6143de90-4289-43de-8dc1-3fca5d0c5df4")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11123,6 +14475,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 204.47 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ffe95d6-cb24-40f7-a2fa-7ab5bfe5489b")
+		(property "Reference" "J13"
+			(at 207.01 539.7499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAP"
+			(at 207.01 540.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a8f2e20-ec75-4efb-8ba1-d6da087af65c")
+		)
+		(pin "3"
+			(uuid "821f1462-c0c4-4fea-8ae4-4f398b1c3358")
+		)
+		(pin "2"
+			(uuid "3287f078-4c93-49b1-b314-3909bb31963a")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 767.08 165.1 180)
 		(unit 1)
@@ -11445,6 +14882,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 330.2 534.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c5d1e2e-4dc9-4fd5-b832-dea4b50edbd2")
+		(property "Reference" "#PWR052"
+			(at 330.2 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 330.327 530.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 330.2 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa27ed99-5e03-468a-9e54-7d45d32bda74")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 163.195 336.55 90)
 		(unit 1)
@@ -11680,6 +15196,358 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "F9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 482.6 558.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "215f2c37-8de9-4c1d-b7a0-189b29ab6e40")
+		(property "Reference" "#PWR075"
+			(at 477.52 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 478.79 558.6731 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 481.33 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 481.33 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 482.6 558.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83b05b79-0fe4-424e-b2fe-4618dd08a900")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x35_MountingPin")
+		(at 491.49 546.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d5f80d-14b6-409f-9f97-bbbee3651831")
+		(property "Reference" "J10"
+			(at 494.03 545.1855 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ECU PINOUT"
+			(at 494.03 546.4555 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x35, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 491.49 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3d7fd17-b887-4b1b-80b5-bbde0d3c76ec")
+		)
+		(pin "2"
+			(uuid "c683b065-b25c-458b-984a-b24528dc7320")
+		)
+		(pin "4"
+			(uuid "a9b8bc22-0db5-4ad9-ba53-00ce76f6adad")
+		)
+		(pin "5"
+			(uuid "5ee2609a-e4b0-437a-b3af-c57f9c045265")
+		)
+		(pin "3"
+			(uuid "ba3d98de-e0bf-4a7d-8d02-3b18eb2522d7")
+		)
+		(pin "6"
+			(uuid "63b97752-5df7-4827-ac22-a0323426dd78")
+		)
+		(pin "7"
+			(uuid "dbc137ca-3382-43ad-8ae9-4fbfd1f353a9")
+		)
+		(pin "12"
+			(uuid "456fb77c-e4ff-4b16-810c-8c78bcf9c944")
+		)
+		(pin "17"
+			(uuid "6dfb6fde-9024-46f5-a060-bade742b25a4")
+		)
+		(pin "18"
+			(uuid "1fa71411-fbb9-4fdc-8aa0-1a450255266c")
+		)
+		(pin "29"
+			(uuid "e028aab6-6ac0-4920-b322-2f5537dcc27c")
+		)
+		(pin "32"
+			(uuid "303019c1-9dd2-4d63-885f-3c40e30c2dc9")
+		)
+		(pin "28"
+			(uuid "2d0b6cfc-0eee-4d6d-82ae-7a1aca338594")
+		)
+		(pin "33"
+			(uuid "7e5e0c53-4039-4546-9e7f-c97b362c84be")
+		)
+		(pin "11"
+			(uuid "f0ec0313-78c3-4de5-b3d7-3bf67ddf5819")
+		)
+		(pin "27"
+			(uuid "24cd9ea5-e5ec-4a45-84a0-9ad82661aa55")
+		)
+		(pin "16"
+			(uuid "de599849-f746-4213-ae5d-1ad60c995152")
+		)
+		(pin "23"
+			(uuid "ab2280ab-6503-41c5-82dc-db80fe2fb5df")
+		)
+		(pin "24"
+			(uuid "b849ea3e-e844-4388-8a90-f6b322b2f1ae")
+		)
+		(pin "15"
+			(uuid "fb445989-b7b4-49e3-8970-81f80db8ab0c")
+		)
+		(pin "19"
+			(uuid "1444c647-e9f2-47ab-b279-e3fd769a2f3e")
+		)
+		(pin "30"
+			(uuid "b832bdfd-1534-46fa-96f5-ee07d52e4177")
+		)
+		(pin "34"
+			(uuid "62210379-3987-4f6b-ad3a-78a464fa7c88")
+		)
+		(pin "35"
+			(uuid "e6802551-6b72-446c-8796-d2c0439bcc9f")
+		)
+		(pin "20"
+			(uuid "9a1b644e-a36a-449c-9eb6-a25a4067d4de")
+		)
+		(pin "9"
+			(uuid "18e71a48-4623-4935-9a23-9df4ea323dea")
+		)
+		(pin "8"
+			(uuid "6f7d5ff9-d66e-4395-84d3-b14c49cf8ca8")
+		)
+		(pin "14"
+			(uuid "52c57379-649d-4a01-a67a-9c806fffc776")
+		)
+		(pin "13"
+			(uuid "06022ba8-f78f-436e-9352-de197957603e")
+		)
+		(pin "10"
+			(uuid "69305ef4-31b3-40a2-8f07-9ca966b9aeda")
+		)
+		(pin "21"
+			(uuid "08200cfd-8fac-4154-a55a-ae261d34c6e6")
+		)
+		(pin "22"
+			(uuid "f4e24611-14b2-4222-ad29-6ca570be1d59")
+		)
+		(pin "25"
+			(uuid "82772e19-d21d-4685-84ab-aedc83744856")
+		)
+		(pin "26"
+			(uuid "a73e473f-ec99-466b-b480-94a6047ac8af")
+		)
+		(pin "31"
+			(uuid "f0666184-1d00-41c6-a09d-2a7897411c15")
+		)
+		(pin "MP"
+			(uuid "b124a46e-5e0d-4b5f-b3e7-8eea084537a9")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 336.55 513.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25169772-59ae-401f-9136-20fda26a1ab2")
+		(property "Reference" "K21"
+			(at 336.55 497.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Shutdown Relay"
+			(at 335.788 499.872 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 337.82 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 340.36 495.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 336.55 513.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "c9cb0d21-fbcf-4e81-8735-2f8bd2682a3a")
+		)
+		(pin "A2"
+			(uuid "ce4c8646-c9b2-4df7-b515-05853c381390")
+		)
+		(pin "A1"
+			(uuid "6ee609c0-2b8c-486d-b242-8e364ea861bf")
+		)
+		(pin "13"
+			(uuid "c3cca28f-76e0-49b2-91d2-308bce51c4d1")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "K21")
 					(unit 1)
 				)
 			)
@@ -12342,6 +16210,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 359.41 473.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c43dac-a56d-4b7e-845f-5e2ae29f1322")
+		(property "Reference" "#PWR054"
+			(at 359.41 467.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 359.41 468.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 359.41 473.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 473.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 359.41 473.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b15b061d-0391-4828-b482-04fa6d551f49")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 302.26 134.62 90)
 		(unit 1)
 		(body_style 1)
@@ -12589,6 +16535,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 156.21 636.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39487197-87c9-400d-9965-82a132cedde1")
+		(property "Reference" "#PWR051"
+			(at 161.29 636.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 160.02 636.3969 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 636.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 636.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 156.21 636.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cb9a756-e7c7-4cb4-8004-4907434eab6d")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x35_MountingPin")
 		(at 464.82 78.74 0)
 		(unit 1)
@@ -12774,6 +16800,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 375.92 490.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aab7934-432e-44ed-a040-1c6855da8945")
+		(property "Reference" "D12"
+			(at 373.38 491.4901 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 373.38 488.9501 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+			(at 375.92 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 375.92 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "239f0a59-2f9a-4a0e-85c1-acc2ef054c6e")
+		)
+		(pin "1"
+			(uuid "6821d30b-50f0-488f-8276-9ce950d12f3d")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 615.95 120.65 180)
 		(unit 1)
@@ -12928,6 +17036,171 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 396.24 556.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fd0483f-8c22-4d54-8d6f-e3c6a25883fe")
+		(property "Reference" "F24"
+			(at 396.24 549.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "O2 heater 10A"
+			(at 396.24 552.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 558.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 396.24 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42617d6b-f167-41b3-992b-d859176e5123")
+		)
+		(pin "2"
+			(uuid "3ce36058-b227-421a-be76-59226f2cdfbd")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 247.65 566.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "408e8c6b-7bff-4bb0-a9c9-ffdd8b98d6bb")
+		(property "Reference" "_2"
+			(at 249.936 527.558 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "O2_Sens"
+			(at 241.3 566.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 566.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 566.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 566.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cc03af8-4a89-43d2-889c-8eb1cfd4c170")
+		)
+		(pin "3"
+			(uuid "baeeb13a-7cb5-4943-9f78-323db4d3d772")
+		)
+		(pin "2"
+			(uuid "1d91eb46-123d-4fe6-bcc5-cad7ef617341")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_2")
 					(unit 1)
 				)
 			)
@@ -13192,6 +17465,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 247.65 541.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b84d8f1-d652-408e-8c70-9868ed36be9a")
+		(property "Reference" "_5"
+			(at 249.936 502.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAP"
+			(at 243.586 541.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cde9888-689e-4073-b9cc-41551d38141f")
+		)
+		(pin "3"
+			(uuid "87006537-2692-47da-aa8b-c2d34e2b6605")
+		)
+		(pin "2"
+			(uuid "2db3b1b6-86c3-4de5-bd31-81e891c40872")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 803.91 49.53 90)
 		(unit 1)
@@ -13265,6 +17622,88 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 355.6 544.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d1b772f-fa13-460b-af3f-bfe96109705d")
+		(property "Reference" "D11"
+			(at 358.14 543.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16V Zener"
+			(at 358.14 546.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+			(at 355.6 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 355.6 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "65796b80-dba9-45ef-a81e-4806d2798fbc")
+		)
+		(pin "1"
+			(uuid "4587a9a3-3876-4681-94eb-b798115f0113")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -13852,6 +18291,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 325.12 542.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57984566-d85a-42a3-ad16-3535164c0a11")
+		(property "Reference" "K20"
+			(at 313.69 543.5601 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "starter control relay"
+			(at 332.486 552.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 313.69 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 307.34 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 325.12 542.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "a95bcd47-7741-43a6-9d13-9beb1fe7ea13")
+		)
+		(pin "A2"
+			(uuid "d6bd193b-52bb-4d7e-8aae-7c2ea6530cb1")
+		)
+		(pin "A1"
+			(uuid "48f210d1-f064-40df-8c80-4340ac6763c3")
+		)
+		(pin "14"
+			(uuid "c8bad60a-9ed2-4464-b9a5-1073d3dd11a7")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 789.94 147.32 180)
 		(unit 1)
@@ -13933,6 +18462,259 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 247.65 548.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a94e514-e75c-4ef5-a391-fa8ed7e28104")
+		(property "Reference" "J17"
+			(at 245.11 547.3699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Coolant_Sys"
+			(at 245.11 548.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d24db4a-14d8-4418-ac57-bdf058f7a71a")
+		)
+		(pin "3"
+			(uuid "6ab67630-4922-49a2-b135-c07a5cd68f9b")
+		)
+		(pin "2"
+			(uuid "d4d4697c-12f0-415d-b1eb-e3facbfebdcf")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 247.65 533.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cd192cc-0f41-4034-a9a6-df5ac38e368d")
+		(property "Reference" "_4"
+			(at 249.936 494.538 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ignition_Coil"
+			(at 240.03 535.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be2d13a6-c78f-4f04-949d-c32418ed694d")
+		)
+		(pin "3"
+			(uuid "5d07d92d-d2c9-4d92-8e9d-6baff9367616")
+		)
+		(pin "2"
+			(uuid "9273ce37-74a4-494a-ad88-84f4c0423070")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 204.47 510.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f82f0a0-e212-41a2-bde5-c65b0bbc2015")
+		(property "Reference" "_1"
+			(at 207.01 511.8099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ignition"
+			(at 207.01 513.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 510.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 510.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 510.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6d606b3-c893-4971-b5cc-bcb4bd687c79")
+		)
+		(pin "1"
+			(uuid "3c8cf595-e8bb-46e7-928e-ec54bf68eadc")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 398.78 342.9 0)
 		(unit 1)
@@ -14004,6 +18786,87 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 396.24 568.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6080c96d-ed1b-4d1f-b759-082f4320e2d5")
+		(property "Reference" "F26"
+			(at 396.24 562.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ignition 5A"
+			(at 396.24 565.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 570.738 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 396.24 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "974d4f86-afbb-493d-8628-26e95abbb6a8")
+		)
+		(pin "1"
+			(uuid "a837d71e-ae3a-4eaa-800d-5c6eeb4053f3")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F26")
 					(unit 1)
 				)
 			)
@@ -14564,6 +19427,85 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 124.46 486.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b556059-10be-48d2-ac09-6e155e306ed5")
+		(property "Reference" "#PWR046"
+			(at 128.27 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 120.65 486.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 124.46 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "094e4dff-2544-49bf-a813-68a43fed7713")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15154,6 +20096,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 157.48 529.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76576292-0dbf-4abf-9dfe-9a9e199d987f")
+		(property "Reference" "#PWR073"
+			(at 162.56 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 161.417 525.653 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 157.48 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0bba9d3-8380-4160-a520-3d22d19c6353")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 681.99 60.96 0)
 		(unit 1)
@@ -15234,6 +20255,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 151.13 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aa7f78e-efab-46f6-a0f1-a01c191e6f4c")
+		(property "Reference" "SW21"
+			(at 151.13 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOTS"
+			(at 151.13 504.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 151.13 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 151.13 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d1ad27ae-8cf6-4ff2-9570-6d6099ec3c4d")
+		)
+		(pin "1"
+			(uuid "73748e00-43d6-405c-8d1f-79f45deae9e7")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 349.25 267.97 180)
 		(unit 1)
@@ -15306,6 +20408,95 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 397.51 535.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b43110e-6b29-4a9d-8df7-ab8053aa8b7e")
+		(property "Reference" "K24"
+			(at 397.51 520.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuel pump and Injectors"
+			(at 397.51 523.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 398.78 524.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 401.32 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 397.51 535.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A1"
+			(uuid "bb3edcdb-2bab-44c7-a2b1-98cdeea928f3")
+		)
+		(pin "A2"
+			(uuid "26fd74ad-2fa3-4d22-bed4-aeca4640cdd8")
+		)
+		(pin "13"
+			(uuid "80473af2-f435-4e6c-8416-abaf045fb402")
+		)
+		(pin "14"
+			(uuid "21fa2b5d-86df-47d4-a0ac-c6f85aeda4e6")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "K24")
 					(unit 1)
 				)
 			)
@@ -15873,6 +21064,173 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
+		(at 349.25 499.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82953747-c22d-4f9d-8899-2dc7c4f0c75f")
+		(property "Reference" "F15"
+			(at 355.6 499.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fans 5A"
+			(at 351.79 499.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.472 499.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 499.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 349.25 499.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ceb5ac50-b2b5-4075-8311-06aa91c2542a")
+		)
+		(pin "1"
+			(uuid "83ee63cb-7880-4266-95dd-0ee8dbcacbd4")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 204.47 525.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83a63564-1b76-4bef-b538-55b105ed1ebd")
+		(property "Reference" "J8"
+			(at 207.01 524.5099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FP+INJ"
+			(at 207.01 525.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71d992c5-fdee-437a-a9f8-a8befbbd9773")
+		)
+		(pin "3"
+			(uuid "142a5129-3af9-4899-9126-4ef6017280c6")
+		)
+		(pin "2"
+			(uuid "7b10bd79-1a5d-409d-988e-29ad0d4bacf0")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
 		(at 436.88 314.96 90)
 		(unit 1)
 		(body_style 1)
@@ -16110,6 +21468,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 408.94 548.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8af3aa1b-e1da-48ef-82ab-63a3299cbf0f")
+		(property "Reference" "#PWR057"
+			(at 408.94 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 402.844 548.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.94 549.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 549.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 408.94 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4afa5c25-b89e-4619-a627-1bf564782411")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.035 577.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c3d151d-cff2-48d5-bd8d-b3e283194398")
+		(property "Reference" "#PWR070"
+			(at 159.385 577.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.845 577.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.035 577.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.035 577.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.035 577.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bba9b30-640f-4724-b3e4-6580dc50e8a6")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
 		(at 369.57 45.72 90)
 		(unit 1)
@@ -16289,6 +21803,86 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 157.48 534.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c07b63-7f81-4382-be44-9c202bbfb23c")
+		(property "Reference" "#PWR071"
+			(at 162.56 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 161.29 534.7969 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 157.48 534.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c67cba9b-c76c-4d06-9627-d9b4589a8c48")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 320.04 328.93 180)
 		(unit 1)
 		(body_style 1)
@@ -16361,6 +21955,175 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 91.44 548.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95b4e9d6-2e51-43b4-8f1d-ae3093187588")
+		(property "Reference" "K17"
+			(at 106.68 548.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "starter solenoid"
+			(at 111.76 549.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 80.01 547.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 73.66 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 91.44 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A2"
+			(uuid "74cbbc34-974d-457f-ae9f-4f389dda10da")
+		)
+		(pin "A1"
+			(uuid "03e0c946-9781-41fb-baa7-6fef88fe9b3b")
+		)
+		(pin "14"
+			(uuid "e4e7f962-7e98-4890-bc94-ee68ab51e8d9")
+		)
+		(pin "13"
+			(uuid "99dbe914-dbda-43e4-a6ac-e1c7d5cb0aa7")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 396.24 562.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "961d30a0-8297-4014-bae9-401376351539")
+		(property "Reference" "F25"
+			(at 396.24 556.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuel 5A"
+			(at 396.24 558.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 564.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 562.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 396.24 562.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a910b73d-4af1-40a8-9b84-738302eecb11")
+		)
+		(pin "1"
+			(uuid "125eadf2-fd6e-44b3-9bfc-b96981783439")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F25")
 					(unit 1)
 				)
 			)
@@ -16699,6 +22462,86 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 345.44 518.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98caa551-3a12-43a2-b879-66246f98b942")
+		(property "Reference" "#PWR047"
+			(at 350.52 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 349.25 518.2869 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 345.44 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4335f09f-3cd3-4944-82fa-b4c9688e47dd")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -17108,6 +22951,251 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 138.43 486.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e5b584-0a80-4399-a347-81af391bd725")
+		(property "Reference" "PMS3"
+			(at 138.43 480.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 138.43 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 494.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 138.43 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb217679-5c08-4230-a344-bc4af8407b1e")
+		)
+		(pin "3"
+			(uuid "2b541a51-682e-479f-a87d-ae82aafb184d")
+		)
+		(pin "1"
+			(uuid "e9f3762c-5f23-4f86-8218-f71284128a2f")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "PMS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 247.65 505.46 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3b406c5-0682-490e-b2f0-8cb02675dc0b")
+		(property "Reference" "J9"
+			(at 247.65 499.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin+KillSwitches"
+			(at 238.506 507.238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9392b8f-df33-4e24-8f53-57744ca9a346")
+		)
+		(pin "1"
+			(uuid "beaafc2e-d106-4770-aee6-1bbcd86e18be")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 336.55 525.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a3d231-b53b-412e-9075-5d73d1079c5e")
+		(property "Reference" "D9"
+			(at 336.55 519.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16V Zener"
+			(at 336.55 521.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+			(at 336.55 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 336.55 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d611d481-9dea-4b51-9ac4-be37352920da")
+		)
+		(pin "1"
+			(uuid "8f244ea5-8ecf-43b7-9597-3b9364c78467")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x35_MountingPin")
 		(at 481.33 340.36 0)
 		(unit 1)
@@ -17287,6 +23375,87 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 247.65 510.54 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a721d66d-1781-478c-baa9-449aa641acc4")
+		(property "Reference" "J11"
+			(at 247.65 504.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ignition"
+			(at 242.316 510.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 510.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 510.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 510.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7bedd09-9246-420c-bd97-38331420c03d")
+		)
+		(pin "1"
+			(uuid "b1ec37b9-76f3-4959-be9e-418b71db3334")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -17621,6 +23790,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 163.83 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7ba5b5-f909-4089-b1e1-cf8f9a535d01")
+		(property "Reference" "SW22"
+			(at 163.83 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inertia switch"
+			(at 163.83 504.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 163.83 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 163.83 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ca02554-6931-457d-9cce-6f344502efb6")
+		)
+		(pin "1"
+			(uuid "eb3126e7-1e69-4838-9e8d-f65ac6a32992")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 480.06 546.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0ba61f6-5846-43c6-929b-79ecfb5912a0")
+		(property "Reference" "#PWR074"
+			(at 480.06 539.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 478.028 546.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 480.06 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 480.06 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 480.06 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f418272b-b378-4557-8312-ce8dc187c9d9")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
 		(at 355.6 330.2 90)
 		(unit 1)
@@ -17704,6 +24032,87 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Open")
+		(at 179.07 508 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1eaeba1-dc82-44b3-b0ef-f6b455392ebc")
+		(property "Reference" "SW23"
+			(at 179.07 501.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Cockpit switch"
+			(at 179.07 504.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 179.07 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 179.07 508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a776cde5-709c-477a-ac11-8e2ed4840006")
+		)
+		(pin "1"
+			(uuid "b6905c18-6297-40cd-9c4a-8a77891f9999")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -18026,6 +24435,88 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 204.47 554.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5dd70ed-016d-4d86-8987-e2fb9a961412")
+		(property "Reference" "_7"
+			(at 207.01 556.2599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Intake_Air_Temp"
+			(at 206.248 556.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8dcf7e5c-fb16-4e4f-96fe-9abc8d46f3ca")
+		)
+		(pin "1"
+			(uuid "96c53aa5-c48d-4ec5-b1e8-30ec859f85e7")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_7")
 					(unit 1)
 				)
 			)
@@ -18449,6 +24940,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 247.65 525.78 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0ebb5bf-09f9-45b1-9bd5-806c27bfe916")
+		(property "Reference" "_3"
+			(at 249.936 486.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FP+INJ"
+			(at 242.57 525.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 525.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96367438-12b7-44c9-a580-7655af17f44b")
+		)
+		(pin "3"
+			(uuid "e1203889-5f1a-4f98-95db-b95b5ba15dd9")
+		)
+		(pin "2"
+			(uuid "7513a789-83a2-4436-b32d-244df4bf807d")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 764.54 82.55 0)
 		(unit 1)
@@ -18601,6 +25176,169 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 204.47 505.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c393f7d9-8e0a-450b-a26c-c4503a67f801")
+		(property "Reference" "_"
+			(at 207.01 506.7299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vin+KillSwitches"
+			(at 207.01 507.238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 505.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "220e61e1-b703-4c01-9931-6ecd9d6d4ee1")
+		)
+		(pin "1"
+			(uuid "5c931751-65d9-445c-9190-b02856130600")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 529.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c62aa58f-5dfb-4216-99de-739b2b4870f6")
+		(property "Reference" "SW20"
+			(at 120.65 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "starter"
+			(at 119.38 530.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 128.27 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae2a5918-16c2-4fbb-ac4c-288c931cee08")
+		)
+		(pin "2"
+			(uuid "1b92cb13-5cda-42df-b3d9-02d985178a49")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -19007,6 +25745,246 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 373.38 541.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca6407ac-ae5e-46dc-bcf6-7637a215f294")
+		(property "Reference" "#PWR055"
+			(at 378.46 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Chassis GND"
+			(at 377.19 541.1469 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 374.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 373.38 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd18f006-1b24-408b-b15d-fb9327d3a30e")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 396.24 575.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb8d2723-3108-4a95-8ef9-bdc1e33a0bfd")
+		(property "Reference" "F27"
+			(at 396.24 568.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Injector 5A"
+			(at 396.24 571.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 577.088 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 575.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 396.24 575.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "33a1786b-708a-4842-b028-6e65a587b3a3")
+		)
+		(pin "1"
+			(uuid "e571d839-3de9-4636-91b8-ee99565b17e6")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 447.04 520.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc17b208-d3aa-4711-bb74-5793552ad4a4")
+		(property "Reference" "F28"
+			(at 447.04 514.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 447.04 516.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 447.04 522.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 520.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 447.04 520.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8a133092-558d-431e-93e3-4c582d5921da")
+		)
+		(pin "1"
+			(uuid "52d24622-a597-436a-9efb-23152d96d0ff")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 665.48 168.91 270)
 		(unit 1)
 		(body_style 1)
@@ -19241,6 +26219,255 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 204.47 533.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf2ef966-2cfa-486a-8915-999faa4115ce")
+		(property "Reference" "J12"
+			(at 207.01 532.1299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ingnition_Coil"
+			(at 206.756 531.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 533.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a76aa035-4e7d-4f4d-9692-6d9ddb22029a")
+		)
+		(pin "3"
+			(uuid "54847417-84ea-4c49-a099-6bfe78bc61c2")
+		)
+		(pin "2"
+			(uuid "187496da-ff8f-4249-b00e-dc2c8306588b")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 204.47 518.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0011aa4-c6f4-4136-b20f-b94411180958")
+		(property "Reference" "J6"
+			(at 207.01 516.8899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "starter"
+			(at 207.01 517.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17595eb0-4b57-4016-9521-941228bd8a0d")
+		)
+		(pin "3"
+			(uuid "ff714644-e8cd-4f7c-9fbb-7c08d987b981")
+		)
+		(pin "2"
+			(uuid "2ab474d4-92c5-4a49-bdaa-6696661adacd")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 96.52 556.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d135ec40-b92a-4baf-b4e9-810db4a42b93")
+		(property "Reference" "#PWR045"
+			(at 96.52 561.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 100.076 556.514 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 557.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 557.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 96.52 556.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c5aa4b9-f9b5-4c0b-9174-a65b6ca7681c")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19804,6 +27031,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 339.09 546.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd133538-641c-4611-8ec7-0f17442cdc76")
+		(property "Reference" "D15"
+			(at 347.345 541.655 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16V Zener"
+			(at 343.789 544.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+			(at 339.09 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 339.09 546.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71964c71-34f1-46f6-b76a-6709ba840d86")
+		)
+		(pin "1"
+			(uuid "3d0b2932-e944-4833-b963-bc1781c97c64")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 247.65 554.99 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de894477-7a60-48ff-9e36-ed40b5d3cac1")
+		(property "Reference" "J15"
+			(at 247.65 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Intake_Air_Temp"
+			(at 239.014 556.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 554.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b168985-1b87-46a4-b576-00e5023dd3ee")
+		)
+		(pin "1"
+			(uuid "1f7708e7-d6fd-497f-a6e1-6dec310f1ca3")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 361.95 219.71 90)
 		(unit 1)
@@ -19879,6 +27266,172 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "F6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 408.94 544.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9d092d-cc24-478f-8f2c-441c19c90752")
+		(property "Reference" "D13"
+			(at 411.48 543.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "16V Zener"
+			(at 411.48 546.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+			(at 408.94 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 408.94 544.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3bea621-d671-49aa-9424-f5d8ab68e79b")
+		)
+		(pin "1"
+			(uuid "9d8273dc-13b0-4812-a9bb-48d693fcc38e")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 247.65 518.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfc47dce-a5a8-4dd3-b9c0-f487e61df971")
+		(property "Reference" "_"
+			(at 249.936 479.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "starter"
+			(at 242.57 517.652 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94753cfc-2f2d-4731-aa87-ec361930b25d")
+		)
+		(pin "3"
+			(uuid "757a189a-98f6-44da-8b0a-7a26d5f3b2de")
+		)
+		(pin "2"
+			(uuid "22baf70f-7731-43a8-834f-8654ebca31fa")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "_")
 					(unit 1)
 				)
 			)
@@ -20050,6 +27603,259 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 204.47 548.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e39f1873-b04a-48f2-b5fd-fd210ba56e66")
+		(property "Reference" "J16"
+			(at 207.01 547.3699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Coolant_Sys"
+			(at 207.01 548.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 548.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00a97f84-0c9a-42b3-a1e4-439b397dd81c")
+		)
+		(pin "3"
+			(uuid "06a18144-6d5d-423e-ab69-fe43072a2240")
+		)
+		(pin "2"
+			(uuid "add87e84-0417-4e0f-be54-24ccdca6474e")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 354.33 486.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5caabfb-1df0-4cf0-947b-29f336951c6d")
+		(property "Reference" "K22"
+			(at 339.09 486.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fans Relay"
+			(at 352.552 479.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 342.9 487.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 336.55 490.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 354.33 486.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "a777d6cf-3054-434f-b6a9-be17e779da39")
+		)
+		(pin "A2"
+			(uuid "f776adb0-4bfa-4064-b4cd-e48358143a6c")
+		)
+		(pin "A1"
+			(uuid "58d46029-b840-4a43-bc5e-2d745262a2fc")
+		)
+		(pin "13"
+			(uuid "475c0ae1-7868-4a38-a097-b8e2decea6d0")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 88.9 568.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e607191f-abe8-47f9-b172-414ad49b8e22")
+		(property "Reference" "#PWR044"
+			(at 83.82 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 85.09 568.833 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 88.9 568.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a61c0a0-3764-4213-bfce-705efd4b6942")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 739.14 167.005 180)
 		(unit 1)
@@ -20123,6 +27929,87 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 515.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebfde8ca-e87a-4c61-b7a6-efbb4b755d4f")
+		(property "Reference" "SW19"
+			(at 120.65 515.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ignition"
+			(at 119.38 516.636 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 515.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 515.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 128.27 515.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d33ce342-0038-442b-99e6-b3aea634c010")
+		)
+		(pin "2"
+			(uuid "a38b9363-42c2-4ca6-8716-137f09819ce3")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -20299,6 +28186,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 204.47 566.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0e9f4a7-2b56-4ea0-9241-90cd4ed557cc")
+		(property "Reference" "J7"
+			(at 207.01 565.1499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "O2_Sens"
+			(at 207.01 566.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 566.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 566.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 566.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8e81caa-b639-415d-b2af-199933ac17ef")
+		)
+		(pin "3"
+			(uuid "2107400b-b60e-4d20-b585-e14e9907d935")
+		)
+		(pin "2"
+			(uuid "1c6506e4-2a3b-47d9-b367-9e5e826609ae")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 344.17 40.64 0)
 		(unit 1)
@@ -20374,6 +28346,95 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 365.76 535.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55b3d05-5c3f-43ef-a164-120eee93df3d")
+		(property "Reference" "K23"
+			(at 365.76 520.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Main Relay"
+			(at 365.76 523.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
+			(at 367.03 524.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 369.57 518.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 365.76 535.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "8e9dd78e-1f17-46ad-9c13-d5b5f1bcafee")
+		)
+		(pin "A1"
+			(uuid "2ee420a2-9ee1-47e0-a7ed-9fb5204e45c0")
+		)
+		(pin "14"
+			(uuid "e6004e02-2564-4606-915b-e30e07484f79")
+		)
+		(pin "A2"
+			(uuid "b87fa6da-08fe-43a7-a6b5-d7bad9ad9320")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "K23")
 					(unit 1)
 				)
 			)
