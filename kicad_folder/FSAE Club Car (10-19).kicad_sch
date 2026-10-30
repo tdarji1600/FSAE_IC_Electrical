@@ -8124,7 +8124,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 502.92) (xy 486.41 502.92)
+			(xy 378.46 502.92) (xy 444.5 502.92)
 		)
 		(stroke
 			(width 0)
@@ -8431,6 +8431,16 @@
 			(type default)
 		)
 		(uuid "3f081981-3673-4d87-bf6f-a651a021b670")
+	)
+	(wire
+		(pts
+			(xy 452.12 502.92) (xy 486.41 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1038f5-9329-420a-a151-1ea2daf120a7")
 	)
 	(wire
 		(pts
@@ -10374,16 +10384,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 520.7) (xy 486.41 520.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803d253d-7700-4307-ab46-18326ebf5049")
-	)
-	(wire
-		(pts
 			(xy 248.92 43.18) (xy 248.92 46.99)
 		)
 		(stroke
@@ -11154,7 +11154,7 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 520.7) (xy 443.23 520.7)
+			(xy 422.91 520.7) (xy 486.41 520.7)
 		)
 		(stroke
 			(width 0)
@@ -26199,86 +26199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 447.04 520.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc17b208-d3aa-4711-bb74-5793552ad4a4")
-		(property "Reference" "F28"
-			(at 447.04 514.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 447.04 516.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 447.04 522.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 447.04 520.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 447.04 520.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8a133092-558d-431e-93e3-4c582d5921da")
-		)
-		(pin "1"
-			(uuid "52d24622-a597-436a-9efb-23152d96d0ff")
-		)
-		(instances
-			(project "FSAE Club Car (10-19)"
-				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
-					(reference "F28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 665.48 168.91 270)
 		(unit 1)
@@ -28581,6 +28501,86 @@
 			(project "FSAE Club Car (10-19)"
 				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 448.31 502.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2cd6109-042e-47e2-be69-555c119134f4")
+		(property "Reference" "F28"
+			(at 448.31 496.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A ECU fuse"
+			(at 448.31 499.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 448.31 504.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 448.31 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 448.31 502.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4605d202-06ed-4a52-9e55-c41298b543a7")
+		)
+		(pin "1"
+			(uuid "2a85c45c-486f-484b-a8b4-77a806a17f8f")
+		)
+		(instances
+			(project "FSAE Club Car (10-19)"
+				(path "/f4a3be7d-51ca-4426-b777-6c682d495711"
+					(reference "F28")
 					(unit 1)
 				)
 			)
