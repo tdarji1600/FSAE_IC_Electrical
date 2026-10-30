@@ -8,3 +8,4 @@ https://digikey.com/short/mhtn5129
 https://www.digikey.com/short/d78vv9z8
 https://www.digikey.com/short/zb5522zn
 https://www.digikey.com/short/2zrwd38d
+https://www.digikey.com/short/hjz1hp71
