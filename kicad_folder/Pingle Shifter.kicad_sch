@@ -822,193 +822,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 45.212 162.56)
@@ -1083,7 +896,7 @@
 		(uuid "87dd3db1-ced5-4e75-afdc-c4036114303c")
 	)
 	(rectangle
-		(start 199.39 138.43)
+		(start 256.54 138.43)
 		(end 281.94 187.96)
 		(stroke
 			(width 0)
@@ -1170,15 +983,15 @@
 		)
 		(uuid "276897ce-9d55-40ee-b82b-4f2557fe828f")
 	)
-	(text "V-In\n"
+	(text "12V power from PMS"
 		(exclude_from_sim no)
-		(at 203.962 148.336 0)
+		(at 253.238 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2c54a736-8570-43cd-b668-8c262c0462d9")
+		(uuid "30715ddd-76cc-41a9-b230-ac08ab885c48")
 	)
 	(text "1"
 		(exclude_from_sim no)
@@ -1189,16 +1002,6 @@
 			)
 		)
 		(uuid "313db58b-7ae2-48f2-a8b9-04c856a666bf")
-	)
-	(text "J1 Switched Power\n"
-		(exclude_from_sim no)
-		(at 267.462 99.822 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3db94b32-d6d3-4608-b283-485d332401e9")
 	)
 	(text "INJ (+)"
 		(exclude_from_sim no)
@@ -1220,7 +1023,7 @@
 		)
 		(uuid "50e4e8cd-70ea-4073-b115-d21b553361c2")
 	)
-	(text "Fuel Pump/Injector Pin\n"
+	(text "Fuel Pump/Injector Relay\n"
 		(exclude_from_sim no)
 		(at 279.908 151.13 0)
 		(effects
@@ -1229,16 +1032,6 @@
 			)
 		)
 		(uuid "6a545ac4-2c88-4875-a702-3e1cf760df6d")
-	)
-	(text "J1 (12V Switched Power from main pcb)\n"
-		(exclude_from_sim no)
-		(at 262.128 74.168 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6e9eaa32-8b97-4122-9b20-a159a306a09f")
 	)
 	(text "1"
 		(exclude_from_sim no)
@@ -1252,23 +1045,13 @@
 	)
 	(text "Main PCB"
 		(exclude_from_sim no)
-		(at 212.598 136.652 0)
+		(at 258.826 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "95d27436-29be-41b0-a2fa-0e8f9bfc6e7d")
-	)
-	(text "KillSwitch\n"
-		(exclude_from_sim no)
-		(at 204.724 159.766 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "992d6bc8-1c15-4d9e-aee9-ff0e9a78af7c")
 	)
 	(text "Handlebar Control\n"
 		(exclude_from_sim no)
@@ -1350,16 +1133,6 @@
 		)
 		(uuid "eca1cf83-8f24-4907-981c-2f2a47adfc36")
 	)
-	(text "(-) 12V Battery Terminal\n"
-		(exclude_from_sim no)
-		(at 177.546 96.774 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ecca9560-eb3d-4cfa-9f67-746c87a68c3c")
-	)
 	(text "Control Module\n"
 		(exclude_from_sim no)
 		(at 103.124 218.948 0)
@@ -1389,22 +1162,10 @@
 		(uuid "47ce0d6c-fe5f-45a5-8d64-b4e1eb16c9e6")
 	)
 	(junction
-		(at 243.84 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4951e755-c3f3-40fd-b51d-f2f967f9a01f")
-	)
-	(junction
 		(at 265.43 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7506665a-982d-4c81-a528-a1ca52227cff")
-	)
-	(junction
-		(at 226.06 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d78aee4-f0e7-467e-847c-eada691fd153")
 	)
 	(junction
 		(at 207.01 76.2)
@@ -1413,22 +1174,16 @@
 		(uuid "a21a1f87-a04b-43c4-bb7d-8cfb9f088db5")
 	)
 	(junction
-		(at 243.84 144.78)
+		(at 210.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a802c0dc-9dbd-47cf-98ca-53b4563e8388")
+		(uuid "a70cb52c-636b-473f-af85-92f8a286bf41")
 	)
 	(junction
-		(at 158.75 91.44)
+		(at 247.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c37cf5f7-48c2-4e3f-b965-b35847a75be3")
-	)
-	(junction
-		(at 203.2 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1cd488f-ad03-4655-bdc6-2ca3ad61ff6b")
+		(uuid "baacf571-b739-4349-adc7-f913e755bfce")
 	)
 	(wire
 		(pts
@@ -1449,37 +1204,6 @@
 			(type default)
 		)
 		(uuid "0f098562-9fd9-4679-a1c0-18b77f59698f")
-	)
-	(wire
-		(pts
-			(xy 158.75 97.79) (xy 165.1 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "1f187083-acaa-488e-a499-702ee0a9c798")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 158.75 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e32a76-9fd3-4480-9389-6e3a83b3c42a")
-	)
-	(wire
-		(pts
-			(xy 223.52 162.56) (xy 226.06 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23bd9696-d9ee-4731-a692-4a5b64f8156c")
 	)
 	(wire
 		(pts
@@ -1504,16 +1228,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 172.72) (xy 203.2 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29310b36-8c72-4146-8a8d-eaa2fdfb2010")
-	)
-	(wire
-		(pts
 			(xy 180.34 116.84) (xy 180.34 121.92)
 		)
 		(stroke
@@ -1521,27 +1235,6 @@
 			(type default)
 		)
 		(uuid "33266048-e06f-4338-b81a-d3f11983306f")
-	)
-	(wire
-		(pts
-			(xy 201.93 100.33) (xy 218.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 83 45 1)
-		)
-		(uuid "3a2c874b-757c-46b9-baf9-23b1e294bfe4")
-	)
-	(wire
-		(pts
-			(xy 226.06 100.33) (xy 254 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8e5d1c-946f-46ce-bc3f-84b01d342ebe")
 	)
 	(wire
 		(pts
@@ -1575,44 +1268,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 88.9) (xy 246.38 88.9)
+			(xy 226.06 88.9) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "452e6a35-4cef-4674-86a1-6bf2217ae8bd")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 201.93 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 83 45 1)
-		)
-		(uuid "45f28a3e-6edc-43b2-95b9-979653f13c3b")
-	)
-	(wire
-		(pts
-			(xy 243.84 156.21) (xy 243.84 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3bee7a-429e-4641-8ea8-c6d9b57d4e81")
-	)
-	(wire
-		(pts
-			(xy 243.84 156.21) (xy 247.65 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5697bdb5-b783-45e8-a847-3c1c40ba0269")
 	)
 	(wire
 		(pts
@@ -1633,16 +1295,6 @@
 			(type default)
 		)
 		(uuid "5a143dd9-82e2-4ac2-b620-5b3f933a7908")
-	)
-	(wire
-		(pts
-			(xy 247.65 144.78) (xy 246.38 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a770c77-a09e-4785-82cd-bb8bb60fd488")
 	)
 	(wire
 		(pts
@@ -1686,14 +1338,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 165.1 85.09)
+			(xy 247.65 76.2) (xy 251.46 76.2)
 		)
 		(stroke
-			(width 0.508)
+			(width 0)
 			(type default)
-			(color 255 0 47 1)
 		)
-		(uuid "7a7f8d0d-6a6b-4e89-85e8-1a3a8986fc3a")
+		(uuid "767fe3b6-ced7-4ea6-a54d-429bb4682610")
 	)
 	(wire
 		(pts
@@ -1707,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 133.35) (xy 102.87 91.44)
+			(xy 102.87 133.35) (xy 102.87 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1727,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 91.44) (xy 115.57 91.44)
+			(xy 102.87 86.36) (xy 114.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1737,54 +1388,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 152.4) (xy 234.95 158.75)
+			(xy 247.65 88.9) (xy 247.65 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92e41dab-eb2c-4ecf-bfe6-d5935b3d61a3")
+		(uuid "95b46171-57fa-4d2e-824a-3a027cc1540d")
 	)
 	(wire
 		(pts
-			(xy 201.93 91.44) (xy 201.93 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 83 45 1)
-		)
-		(uuid "93bfef11-21ae-4992-a0e5-7a6f4a81664c")
-	)
-	(wire
-		(pts
-			(xy 226.06 162.56) (xy 229.87 162.56)
+			(xy 241.3 88.9) (xy 247.65 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9547cdcf-4994-4ac8-93e9-8c3d33f6512a")
-	)
-	(wire
-		(pts
-			(xy 203.2 162.56) (xy 203.2 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c0cc57-136e-49e7-a741-d573ebd9bd17")
-	)
-	(wire
-		(pts
-			(xy 234.95 158.75) (xy 243.84 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04cbaff-9dc8-4ebc-9051-a336c37c8804")
+		(uuid "9808cca1-2024-4257-899c-052c4aef67af")
 	)
 	(wire
 		(pts
@@ -1798,16 +1418,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 91.44) (xy 158.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a21cb8df-0cc9-4cbb-94d9-50ec1eaa885a")
-	)
-	(wire
-		(pts
 			(xy 149.86 148.59) (xy 149.86 116.84)
 		)
 		(stroke
@@ -1815,36 +1425,6 @@
 			(type default)
 		)
 		(uuid "a93691a5-1a19-48a5-b0b5-780f865fc22a")
-	)
-	(wire
-		(pts
-			(xy 243.84 144.78) (xy 243.84 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab921d7e-b0c8-47f9-9d05-3d33060a8420")
-	)
-	(wire
-		(pts
-			(xy 199.39 162.56) (xy 203.2 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b030cd56-dcc3-4c2b-b462-c43c6995ec28")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 158.75 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4eedfa2-aa49-49a8-b126-fb6346b8e6f1")
 	)
 	(wire
 		(pts
@@ -1858,6 +1438,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 86.36) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c329e5b6-f178-4afc-abab-4b9e4a80ebc9")
+	)
+	(wire
+		(pts
 			(xy 102.87 133.35) (xy 140.97 133.35)
 		)
 		(stroke
@@ -1868,53 +1458,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 76.2) (xy 251.46 76.2)
+			(xy 232.41 76.2) (xy 247.65 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c43f71b2-5792-4af2-8d27-25c318557061")
-	)
-	(wire
-		(pts
-			(xy 210.82 86.36) (xy 165.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cadb71da-cd5b-4c32-9ab0-f4fafe0fbd70")
-	)
-	(wire
-		(pts
-			(xy 223.52 152.4) (xy 234.95 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4610e3a-5692-4237-9938-1adfd6143429")
-	)
-	(wire
-		(pts
-			(xy 219.71 172.72) (xy 226.06 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d48d3508-3d56-4a25-8059-5afeeb46bbe7")
-	)
-	(wire
-		(pts
-			(xy 226.06 172.72) (xy 226.06 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d69fad04-ea9a-4ec6-9ad7-905945e4054a")
 	)
 	(wire
 		(pts
@@ -1929,26 +1479,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 142.24) (xy 243.84 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd16f4e-95be-4e5b-be38-a45e35aca549")
-	)
-	(wire
-		(pts
-			(xy 199.39 149.86) (xy 208.28 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5a71b7d-fd0b-43b3-ae82-3f53e128457e")
-	)
-	(wire
-		(pts
 			(xy 226.06 76.2) (xy 232.41 76.2)
 		)
 		(stroke
@@ -1956,16 +1486,6 @@
 			(type default)
 		)
 		(uuid "efca6e55-08d9-4882-84dd-7798926ab661")
-	)
-	(wire
-		(pts
-			(xy 165.1 86.36) (xy 165.1 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f008cef5-f031-4277-a3d9-f3f29ad5cf9a")
 	)
 	(wire
 		(pts
@@ -1979,23 +1499,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 148.59) (xy 247.65 144.78)
+			(xy 210.82 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f780d324-5572-4221-94c2-9066a8ea96db")
-	)
-	(wire
-		(pts
-			(xy 203.2 162.56) (xy 208.28 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda14926-941c-47c3-ab79-857e10609b60")
+		(uuid "f55a4d42-4013-4ec4-bba1-4a2fb644ac3e")
 	)
 	(wire
 		(pts
@@ -2006,289 +1516,6 @@
 			(type default)
 		)
 		(uuid "fdc975aa-53e2-4e1b-84fc-2bf070db6ecb")
-	)
-	(label ""
-		(at 172.72 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ab34716-a794-4501-82c1-f5dbfd6cd8da")
-	)
-	(label "(+) 12V Battery Terminal"
-		(at 255.27 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3293cc5a-14dd-46f6-b311-f67fe383e455")
-	)
-	(label ""
-		(at 167.64 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "708bb197-f552-4c62-8e5a-a203380e279c")
-	)
-	(label ""
-		(at 167.64 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b2593d4-7395-48b6-9146-2ce32b217ab1")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 243.84 139.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "049baaa3-3425-41f4-9943-20931751b796")
-		(property "Reference" "J1"
-			(at 248.92 138.4299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 248.92 140.9699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 243.84 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "11c90b87-f4ca-40c9-a849-a93d067fc653")
-		)
-		(pin "1"
-			(uuid "84287590-48f0-47fb-ae66-d0dd86a02978")
-		)
-		(instances
-			(project "Pingle Shifter"
-				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 247.65 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19f7286a-8c0e-464a-a139-8c66787a12a7")
-		(property "Reference" "F2"
-			(at 250.19 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Small Red Wire"
-			(at 250.19 153.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.872 152.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 247.65 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "59f0c392-3804-4783-9cd8-afabed9e3799")
-		)
-		(pin "1"
-			(uuid "7a1375e8-0f9f-41ae-9ee3-2025476a6769")
-		)
-		(instances
-			(project "Pingle Shifter"
-				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 229.87 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c8dbe06-d9e0-47d6-820a-984066e4af88")
-		(property "Reference" "#PWR01"
-			(at 234.95 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 233.68 162.6869 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 229.87 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e361b54-9134-4ba3-9695-6ff8d9bcdaef")
-		)
-		(instances
-			(project "Pingle Shifter"
-				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -2367,94 +1594,6 @@
 			(project "Pingle Shifter"
 				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 215.9 157.48 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "439d0e0b-a972-46e0-83c9-2a6c39a28a48")
-		(property "Reference" "K2"
-			(at 215.9 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Shutdown Relay"
-			(at 215.9 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 217.17 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 219.71 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 215.9 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A1"
-			(uuid "7e02abe1-fb55-4388-8142-afae87279bc4")
-		)
-		(pin "14"
-			(uuid "ab8196d4-1cb8-4715-914f-04956264112e")
-		)
-		(pin "A2"
-			(uuid "d5a2d9f6-7b58-4f71-9871-6cec5f36f6a8")
-		)
-		(pin "13"
-			(uuid "8789a7ef-8058-49cc-adec-44cb751fdfbd")
-		)
-		(instances
-			(project "Pingle Shifter"
-				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -2550,7 +1689,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 250.19 88.9 90)
+		(at 237.49 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2561,7 +1700,7 @@
 		(fields_autoplaced yes)
 		(uuid "554a3155-eead-486a-84f4-7285aafcd1cb")
 		(property "Reference" "40A1"
-			(at 250.19 82.55 90)
+			(at 237.49 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2571,7 +1710,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 250.19 85.09 90)
+			(at 237.49 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2581,7 +1720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 90.678 90)
+			(at 237.49 90.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +1731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 88.9 0)
+			(at 237.49 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +1742,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 250.19 88.9 0)
+			(at 237.49 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,86 +1871,6 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 222.25 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9acd4ad8-ec57-4506-ad9e-ccab82bf5821")
-		(property "Reference" "2A"
-			(at 222.25 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 222.25 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 222.25 102.108 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 222.25 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ac2da70-89a1-4f4d-9491-50c9a1dec2dc")
-		)
-		(pin "1"
-			(uuid "e7f050cc-be61-4e3b-8575-e1955030b344")
-		)
-		(instances
-			(project "Pingle Shifter"
-				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
-					(reference "2A")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
 		(at 265.43 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -2894,7 +1953,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 119.38 91.44 90)
+		(at 118.11 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2905,7 +1964,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8824e00-1561-4453-99b0-9b555bf0a87b")
 		(property "Reference" "40A"
-			(at 119.38 85.09 90)
+			(at 118.11 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2915,7 +1974,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 119.38 87.63 90)
+			(at 118.11 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2925,7 +1984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 93.218 90)
+			(at 118.11 88.138 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +1995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 91.44 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +2006,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 119.38 91.44 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2967,108 +2026,6 @@
 			(project "Pingle Shifter"
 				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
 					(reference "40A")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 215.9 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e73e9f3a-976d-4ffa-966a-7e93ba9f95c2")
-		(property "Reference" "D2"
-			(at 215.9 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 215.9 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 215.9 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 215.9 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8007a3ec-142e-44be-bb95-e4f25be9140c")
-		)
-		(pin "2"
-			(uuid "5c53b575-c512-4f20-a485-38621f8cf3fa")
-		)
-		(instances
-			(project "Pingle Shifter"
-				(path "/131c1653-d31c-43b0-99fb-1782286b3e2a"
-					(reference "D2")
 					(unit 1)
 				)
 			)
