@@ -2620,22 +2620,10 @@
 		)
 	)
 	(junction
-		(at 99.06 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12ddd17c-ac3a-44a6-9b83-504ecd34307d")
-	)
-	(junction
 		(at 44.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c214357-4721-4366-aa7d-a1b07c0b8a2a")
-	)
-	(junction
-		(at 95.25 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fe23533-d48c-417f-913e-77d7cf16a21e")
 	)
 	(junction
 		(at 269.24 106.68)
@@ -2939,16 +2927,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 123.19) (xy 99.06 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1168e95f-4360-4d1e-80d3-f0d465c1d19c")
-	)
-	(wire
-		(pts
 			(xy 128.27 66.04) (xy 130.81 66.04)
 		)
 		(stroke
@@ -3019,16 +2997,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 99.06 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c0e673-be50-4e57-9251-919fd5479059")
-	)
-	(wire
-		(pts
 			(xy 123.19 35.56) (xy 123.19 40.64)
 		)
 		(stroke
@@ -3076,6 +3044,16 @@
 			(type default)
 		)
 		(uuid "2417b148-6aef-4aa0-8124-f91f93633f1c")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 39.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2461f768-83aa-48bf-9c81-74bcb8211e81")
 	)
 	(wire
 		(pts
@@ -3349,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 99.06 90.17)
+			(xy 93.98 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3449,7 +3427,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 101.6 68.58)
+			(xy 39.37 68.58) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3486,16 +3464,6 @@
 			(type default)
 		)
 		(uuid "67d88b16-574e-4b69-a321-9ea855d8d21a")
-	)
-	(wire
-		(pts
-			(xy 95.25 119.38) (xy 39.37 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c712497-01fe-4db1-8792-10c56e3d1acc")
 	)
 	(wire
 		(pts
@@ -3939,6 +3907,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 104.14) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7af761-36ac-46df-9257-8f7185dd8661")
+	)
+	(wire
+		(pts
 			(xy 39.37 99.06) (xy 88.9 99.06)
 		)
 		(stroke
@@ -3969,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 68.58) (xy 101.6 90.17)
+			(xy 93.98 68.58) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4329,13 +4307,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 104.14) (xy 99.06 104.14)
+			(xy 93.98 104.14) (xy 179.07 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e76bdd58-3269-4ecf-a376-f3917ed35aa5")
+		(uuid "e75d4a1a-e3cf-477a-b961-25641e51f8be")
 	)
 	(wire
 		(pts
@@ -4379,7 +4357,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 123.19) (xy 95.25 123.19)
+			(xy 95.25 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4610,7 +4588,7 @@
 			(uuid "e9ba208c-0bd0-4965-995c-40261d97b86a")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "F25")
 					(unit 1)
@@ -4786,7 +4764,7 @@
 			(uuid "fa8a191e-cd04-43ba-8c09-1bd39fae7ac6")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "K4")
 					(unit 1)
@@ -4867,7 +4845,7 @@
 			(uuid "e356c3cf-a4fa-4023-a679-6ce51c13a1e3")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J11")
 					(unit 1)
@@ -4951,7 +4929,7 @@
 			(uuid "842e632c-9b9c-4970-b74a-3e339539af07")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "_3")
 					(unit 1)
@@ -5053,7 +5031,7 @@
 			(uuid "060b64b7-f5d6-4430-8f62-e2e19b9e3d35")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "D17")
 					(unit 1)
@@ -5157,7 +5135,7 @@
 			(uuid "c63b5610-6d20-4454-8277-9b0437c74f5d")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "D16")
 					(unit 1)
@@ -5238,7 +5216,7 @@
 			(uuid "38199493-c68e-48e2-b63c-d70e3b91dc3f")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J9")
 					(unit 1)
@@ -5414,7 +5392,7 @@
 			(uuid "97c17123-1f7f-438c-929f-71022513a7a1")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "K5")
 					(unit 1)
@@ -5493,7 +5471,7 @@
 			(uuid "e488c46f-a63d-480e-9f6c-36871f179030")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "#PWR052")
 					(unit 1)
@@ -5574,7 +5552,7 @@
 			(uuid "611c3448-bd71-4179-ad53-62356142b682")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J15")
 					(unit 1)
@@ -5654,7 +5632,7 @@
 			(uuid "8cd1a944-03fa-4761-8345-d5b08e5243de")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "F28")
 					(unit 1)
@@ -5738,7 +5716,7 @@
 			(uuid "09a989e6-a6d4-4b8c-b2ec-ac89372625b4")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "_1")
 					(unit 1)
@@ -5822,7 +5800,7 @@
 			(uuid "32fa056c-a7dd-40e2-9a8c-e7b578a3d32e")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "_5")
 					(unit 1)
@@ -5901,7 +5879,7 @@
 			(uuid "21ed966b-4a0a-4d0d-b293-7b9cbdf0a75d")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "#PWR055")
 					(unit 1)
@@ -6003,7 +5981,7 @@
 			(uuid "b15515ac-103f-49ee-88f1-ec57ba2bcd52")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "D13")
 					(unit 1)
@@ -6181,7 +6159,7 @@
 			(uuid "88840f50-d38f-496c-95bb-348a7de039f9")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "K1")
 					(unit 1)
@@ -6261,7 +6239,7 @@
 			(uuid "c1c0212c-4fac-498c-80b6-bb01d65330f7")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "#PWR047")
 					(unit 1)
@@ -6436,7 +6414,7 @@
 			(uuid "fcdc3727-1165-4389-ad5f-ad1172855673")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "K7")
 					(unit 1)
@@ -6520,7 +6498,7 @@
 			(uuid "d0f7cc0e-856d-4112-849d-b7756e860256")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "_4")
 					(unit 1)
@@ -6601,7 +6579,7 @@
 			(uuid "551f7e86-092d-48a9-8075-0986408b126a")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "F26")
 					(unit 1)
@@ -6786,7 +6764,7 @@
 			(uuid "13a01fff-84ad-450e-81e5-d29ede624bae")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J10")
 					(unit 1)
@@ -6867,7 +6845,7 @@
 			(uuid "64100ceb-e8b1-4cba-859b-7afebd393f12")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J18")
 					(unit 1)
@@ -6953,7 +6931,7 @@
 			(uuid "53e8430a-6df0-4b53-a9f4-6163257bd1a0")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J17")
 					(unit 1)
@@ -7034,7 +7012,7 @@
 			(uuid "1ef1a498-fd9e-4c63-8c07-2d6189f9acf0")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "F27")
 					(unit 1)
@@ -7115,7 +7093,7 @@
 			(uuid "bcaa0d73-2408-4564-bf95-c209177e64ff")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "F24")
 					(unit 1)
@@ -7219,7 +7197,7 @@
 			(uuid "72a904d7-08fc-41d5-9b9f-104c880f472b")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "D12")
 					(unit 1)
@@ -7323,7 +7301,7 @@
 			(uuid "595032ac-45a8-4bdf-afae-926c1e45706e")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "D15")
 					(unit 1)
@@ -7402,7 +7380,7 @@
 			(uuid "297c8380-9733-4374-b44c-c823edcb71dc")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "#PWR075")
 					(unit 1)
@@ -7484,7 +7462,7 @@
 			(uuid "03dca1d9-e979-4dfe-9282-bee9087fb6d0")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "F15")
 					(unit 1)
@@ -7662,7 +7640,7 @@
 			(uuid "c707f5bf-1184-4823-acc5-2118daec9c4f")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "K6")
 					(unit 1)
@@ -7743,7 +7721,7 @@
 			(uuid "a01251c2-80cb-44a9-961e-891149c941d7")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "J14")
 					(unit 1)
@@ -7821,7 +7799,7 @@
 			(uuid "659f5e5e-ccf7-49a2-a7d5-7bef20fe4b22")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "#PWR074")
 					(unit 1)
@@ -7900,7 +7878,7 @@
 			(uuid "dde06bd3-0139-4590-a988-27552d345d04")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "#PWR054")
 					(unit 1)
@@ -7984,7 +7962,7 @@
 			(uuid "73e8fd9d-b1c9-4047-83b7-1be13fd4a813")
 		)
 		(instances
-			(project "FSAE Engine PCB"
+			(project "FSAE Engine PCB New Relays"
 				(path "/a01edd1b-1d6b-4c4d-8d83-1474a631e652"
 					(reference "_2")
 					(unit 1)
